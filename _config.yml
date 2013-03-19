@@ -2,3 +2,4 @@ paginate: 3
 name: JIAARO
 description: Jiaaro (on life, the universe, and everything)
 url: http://www.jiaaro.com
+permalink: /:title
