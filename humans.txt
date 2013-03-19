@@ -2,10 +2,17 @@
 # The humans responsible & technology colophon
 
 # TEAM
-    James Robert -- Cohost -- @jiaaro
-    Mik Pozin -- Cohost -- @MikPozin 
+    James Robert
+    twitter: @jiaaro
+    github: github.com/jiaaro
+    email: blog@jiaaro.com
 
 # TECHNOLOGY COLOPHON
 
+    jekyll
     HTML5, CSS3
     jQuery, Modernizr
+    
+    font: Bookman Old Style, embedded with webtype.com
+    hosted on github pages
+    

@@ -1,3 +1,5 @@
 # robotstxt.org/
 
 User-agent: *
+
+sitemap: /sitemap.xml
