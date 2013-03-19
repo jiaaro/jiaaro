@@ -1,0 +1,43 @@
+--- 
+layout: post
+title: Python/Javascript Trick - Hacky Error Handling
+published: true
+---
+<p>So I discovered an interesting way to run some code AFTER your return statement... get this (same idea works in both python and javascript)</p>
+<p>[code]
+(function x() {
+&nbsp;&nbsp;try {
+&nbsp;&nbsp;&nbsp;&nbsp;var x = 7;
+&nbsp;&nbsp;&nbsp;&nbsp;throw "run catch block";
+&nbsp;&nbsp;}
+&nbsp;&nbsp;catch (err) {
+&nbsp;&nbsp;&nbsp;&nbsp;x += 1;
+&nbsp;&nbsp;&nbsp;&nbsp;return x;
+&nbsp;&nbsp;}
+&nbsp;&nbsp;finally {
+&nbsp;&nbsp;&nbsp;&nbsp;// if you return here it will override the return
+&nbsp;&nbsp;&nbsp;&nbsp;// value from the catch block if it was run
+&nbsp;&nbsp;&nbsp;&nbsp;x += 1;
+&nbsp;&nbsp;&nbsp;&nbsp;alert(x); // 9
+&nbsp;&nbsp;}
+})();
+// returns 8, but x === 9 !
+[/code]</p>
+<p>or in python...</p>
+<p>[code] class FakeError(Exception): pass
+ def my_func():
+ &nbsp;&nbsp;&nbsp;&nbsp;try:
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x = 7
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raise FakeError
+ &nbsp;&nbsp;&nbsp;&nbsp;except FakeError:
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x += 1
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return x
+ &nbsp;&nbsp;&nbsp;&nbsp;finally:
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# if you return here it will override any value
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# returned by the except block if it was run.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x += 1
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print x
+ 
+ my_func() # prints "9" and THEN returns 8
+ [/code]</p>
+<p>pretty neat... kind of hard to read though</p>

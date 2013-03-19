@@ -1,0 +1,24 @@
+--- 
+layout: post
+title: Pythonic Decorators in Javascript
+published: true
+---
+<p>I've found plenty of examples of the Class decorator around the internets, but none of the function decorator I've come to know and love in python, so here it is:</p>
+<p>[code]
+x = function(msg) {
+ alert(msg);
+ return msg;
+}
+my_decorator = function(fn) {
+ var that = this;
+ return function() {
+ msg = "Message: " + msg;
+ return fn.apply(that, arguments);
+ }
+}
+x = my_decorator(x);
+x('qwery');
+
+// result: an alert that says, "Message: querty"
+[/code]</p>
+<div class="blogger-post-footer"><img class="posterous_download_image" src="https://blogger.googleusercontent.com/tracker/1087162989855557355-6310338034028681538?l=roborobert.com" height="1" alt="" width="1" /></div>

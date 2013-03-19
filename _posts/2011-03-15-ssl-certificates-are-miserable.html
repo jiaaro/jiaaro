@@ -1,0 +1,48 @@
+--- 
+layout: post
+title: SSL Certificates are Miserable
+published: true
+---
+<p>So... I was tasked with setting up https for a website recently. I was setting up Nginx with an ssl certificate from thawte. <p />Pretty normal. Pretty standard. Pretty aweful.<p />Here's to helping the next guy get through the process quicker than I did.<p /> <strong><span style="font-size: large;">Testing</span></strong></p>
+<p />
+<div>Before you start. <strong>Don't use a browser or openssl</strong> to test your config. It will waste your time and make you unhappy.&nbsp;</div>
+<p />
+<div>Use this tool to test your ssl config:<br /> 
+<ul>
+<li><a href="http://www.digicert.com/help/">http://www.digicert.com/help/</a></li>
+</ul>
+<p />
+<h2>Certificate Signing Requests (*.csr), PEM Files, Intermediary Certificates, root CACertificate, Secondary Certificate BS, and more</h2>
+<p>You should know Apache and several other web servers expect your ssl certificate to be in a separate file from the intermediary certificates Like this <a href="http://www.apache-ssl.org/httpd.conf.example">example http.conf</a></p>
+[code]
+ # your key file (often called www.example.com.key or privatekey.pem)
+ SSLCertificateKeyFile /www/certs/ssl.fictional.co.key
+
+# your ssl certificate (often called www.example.com.crt or certificate.pem)
+SSLCertificateFile /www/certs/ssl.fictional.co.cert
+
+#intermediary certificates (often a *.crt or *.pem file)
+SSLCACertificateFile /www/certs/CA.cert
+ [/code]
+<p>ok great... but some other web servers expect <strong>your intermediary certificates to be concatenated with your ssl certificate</strong> (i.e. the one you paid for). So open up notepad and copy/paste that CA.cert into the end of your ssl.fictional.co.cert and hit save.</p>
+<p>&nbsp;</p>
+<h2>What about Nginx?</h2>
+<p>now your nginx config for ssl (<a href="http://wiki.nginx.org/HttpSslModule">documentation here</a>) will look like this:</p>
+[code]
+http {
+&nbsp;&nbsp;server {
+ &nbsp;&nbsp; &nbsp;listen 443;
+&nbsp;&nbsp; &nbsp;ssl on;
+
+&nbsp;&nbsp; &nbsp;# this file contains the ssl.fictional.co.cert AND CA.cert from
+&nbsp;&nbsp; &nbsp;# the apache example
+&nbsp;&nbsp; &nbsp;ssl_certificate /usr/local/nginx/conf/cert.pem;
+
+&nbsp;&nbsp; &nbsp;# this file corresponds to the ssl.fictional.co.key from the apache example
+&nbsp;&nbsp; &nbsp;ssl_certificate_key /usr/local/nginx/conf/cert.key;
+
+&nbsp;&nbsp;}
+}
+[/code]
+<p>Conclusion. SSL<br /> is a pain in the ass.</p>
+</div>

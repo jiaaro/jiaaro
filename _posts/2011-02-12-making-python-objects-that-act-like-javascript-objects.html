@@ -1,0 +1,16 @@
+--- 
+layout: post
+title: Making Python Objects that act like Javascript Objects
+published: true
+---
+<p>Been writing a lot of javascript and I thought this was neat:</p>
+<p>[code]
+
+
+class JsObject(dict):
+&nbsp;&nbsp; &nbsp;def __init__(self, *args, **kwargs):
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;super(JsObject, self).__init__(*args, **kwargs)
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;self.__dict__ = self&nbsp;
+
+
+[/code]</p>

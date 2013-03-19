@@ -1,0 +1,53 @@
+--- 
+layout: post
+title: "Arduinos &amp; servos &amp; batteries: oh my!"
+published: true
+---
+So you want to control more than 2 servos with your arduino... you're in luck! I'm about to tell you how to do it!<p />A little bit about servos:[[posterous-content:GjcHpFqbfItEdoznsFtn]]<br /><ol>
+<li>Whether you're using a separate power supply for the servo or not, <span style="font-weight: bold;">all grounds (black servo wire)</span><span style="font-weight: bold;"> must be connected together</span>. That includes the ground of the arduino, the ground of the servo, and the ground (negative side)  of the battery or power supply.<p />
+</li>
+<li>Using a separate battery to power the servos is usually a good idea if you're using more than 2 servos. Otherwise you risk damaging your arduino.<p />
+</li>
+<li>Most servos expect between 4.5V and 6V on the red lead (center pin), and a signal on the yellow or white lead to indicate position. This signal is called Pulse width modulation (PWM)</li>
+</ol>Pulse width modulation seems more complicated than it is. Here's how it works.<br />OK, let's say you have:<br /><ul>
+<li>6 servos</li>
+<li>Arduino with proto-shield<br />
+</li>
+<li>A battery of ample size to power the servos</li>
+</ul>The PWM signal I mentioned earlier works like so... Every 20 milliseconds (20ms) the signal goes from 0 Volts (Ground) to 5 Volts for a certain length of time, usually 900 - 2400 microseconds. For most servos 1500 us (microseconds) is the middle of the servo's operational range<p />[[posterous-content:qqyhvqnengwpJspweecF]]<p />so here's how you'd hook up the first servo:<br />[[posterous-content:GyguHFifjifcdifFjAqc]]<p />Now the servo has power, everything is grounded, and we're all set to start telling the servo what to do... Looks like we need to write some code! If you're not familiar with programming there is a great <a href="http://www.ladyada.net/learn/arduino/lesson0.html">tutorial from ladyada</a>. Otherwise... just use the <a href="http://www.arduino.cc/en/Reference/HomePage">Reference Page</a> when you're unclear on something.<p />First we need to define some constants. This makes it easy to read the code, and also lets you change the value without going through all your code:<br /><blockquote style="font-family: courier new; color: rgb(0, 102, 0);"><div class="CodeRay">
+  <div class="code"><pre>#define servoPin 1</pre></div>
+</div>
+</blockquote>Now whenever a function requires the pin number of the servo, we'll put <span style="color: rgb(0, 102, 0); font-family: courier new;">servoPin</span> instead.<p />The next thing we need to do is create two functions. They're required and without them nothing will happen. They functions are called <span style="color: rgb(0, 102, 0); font-family: courier new;">setup</span> and <span style="color: rgb(0, 102, 0); font-family: courier new;">loop</span>:<br /><blockquote style="color: rgb(0, 102, 0);"><div class="CodeRay">
+  <div class="code"><pre>void setup() {}void loop() {}</pre></div>
+</div>
+</blockquote>First the arduino runs the function called setup one time then proceeds to run the funtion loop over and over until the arduino is turned off. We're going to use the setup function to set Digital pin 1 as an output since that only needs to be done once.<br /><blockquote style="color: rgb(0, 102, 0);"><div class="CodeRay">
+  <div class="code"><pre>void setup() {  pinMode(servoPin, OUTPUT);}</pre></div>
+</div>
+</blockquote>Now we need to send the servo a pulse every 20ms so here's how to do it: We need a variable to store the time of the last pulse. We'll call it <span style="color: rgb(0, 102, 0); font-family: courier new;">lastPulse</span>. We need to declare it outside the functions because if you declare it inside the setup function the loop function won't be able to see it; this is called <a href="http://irc.essex.ac.uk/www.iota-six.co.uk/c/d5_variable_scope.asp">variable scope</a>. I'm going to put the variable declaration just above the <span style="color: rgb(0, 102, 0); font-family: courier new;">setup</span> function:<br /><blockquote style="font-family: courier new; color: rgb(0, 102, 0);"><div class="CodeRay">
+  <div class="code"><pre>long lastPulse = 0;void setup() {...</pre></div>
+</div>
+</blockquote>Now we just check if 20ms have passed, and if they have, send a pulse to the servo:<br /><span style="color: rgb(0, 102, 0); font-family: courier new;"></span><blockquote><div class="CodeRay">
+  <div class="code"><pre>void loop() {    if (millis() - lastPulse &gt; 20) {        ...    }}</pre></div>
+</div>
+</blockquote>The <span style="color: rgb(0, 102, 0); font-family: courier new;">millis()</span> function is essentially a timer. It tells you how much time has passed since the arduino was turned on. if the last pulse happened at 20 ms, and it's currently 35 ms... the arduino will skip the loop and try again, whereas if the last pulse was as 20 sec and it's currently 41ms the arduino will run the code inside the brackets.<p />Now it's time to  send the pulse!<br /><blockquote style="font-family: courier new; color: rgb(0, 102, 0);"><div class="CodeRay">
+  <div class="code"><pre>digitalWrite(servoPin, HIGH);delayMicroseconds(1500);digitalWrite(servoPin, LOW);</pre></div>
+</div>
+</blockquote>The first <span style="color: rgb(0, 102, 0); font-family: courier new;">digitalWrite() </span>sets pin 1 to high (5V), which begins the pulse. It then waits the duration of the pulse width, 1500us in this case, and then sets pin 1 back to low (0v/Ground). There's your pulse!<p />One more thing: you need to save the time at the time you sent the pulse so we know how long to wait before we send another:<br /><span style="color: rgb(0, 102, 0); font-family: courier new;"><blockquote><div class="CodeRay">
+  <div class="code"><pre>lastPulse=millis();</pre></div>
+</div>
+</blockquote></span>Here's the program so far:<br /><blockquote style="font-family: courier new; color: rgb(0, 102, 0);"><div class="CodeRay">
+  <div class="code"><pre>#define servoPin 1long lastPulse = 0;void setup() {   pinMode(servoPin, OUTPUT);}void loop() {   if(millis() - lastPulse &gt; 20) {lastPulse=millis();digitalWrite(servoPin, HIGH);delayMicroseconds(1500);digitalWrite(servoPin, LOW);   }}</pre></div>
+</div>
+</blockquote>Now we have some solid code to make one servo move to the middle of it's range and stay there.<p />To add the other 5 servos you just hook them up to the 6V Battery in parallel, while making sure to keep everything grounded. Then you hook up each servo's PWM lead to it's own digital i/o pin.<p />[[posterous-content:FmuofmykticBBrtymkAp]]<p />Lets say we want to set each servo to different set values:<br />Servo 1: 1000us<br />Servo 2: 1200us<br />Servo 3: 1400us<br />Servo 4: 1600us<br />Servo 5: 1800us<br />Servo 6: 2000us<p />Now the code is:<br /><blockquote style="font-family: courier new; color: rgb(0, 102, 0);"><div class="CodeRay">
+  <div class="code"><pre>#define servo1Pin 1#define servo2Pin 2#define servo3Pin 3#define servo4Pin 4#define servo5Pin 5#define servo6Pin 6long lastPulse = 0;void setup() {pinMode(servo1Pin, OUTPUT);pinMode(servo2Pin, OUTPUT);pinMode(servo3Pin, OUTPUT);pinMode(servo4Pin, OUTPUT);pinMode(servo5Pin, OUTPUT);pinMode(servo6Pin, OUTPUT);}void loop() {   if(millis() - lastPulse &gt; 20) {lastPulse=millis();digitalWrite(servo1Pin, HIGH);delayMicroseconds(1000);digitalWrite(servo1Pin, LOW);digitalWrite(servo2Pin, HIGH);delayMicroseconds(1200);digitalWrite(servo2Pin, LOW);digitalWrite(servo3Pin, HIGH);delayMicroseconds(1400);digitalWrite(servo3Pin, LOW);digitalWrite(servo4Pin, HIGH);delayMicroseconds(1600);digitalWrite(servo4Pin, LOW);digitalWrite(servo5Pin, HIGH);delayMicroseconds(1800);digitalWrite(servo5Pin, LOW);digitalWrite(servo6Pin, HIGH);delayMicroseconds(2000);digitalWrite(servo6Pin, LOW);   }}</pre></div>
+</div>
+</blockquote>Not very elegant... but it works.<p />What we could do is write a function to send the pulse:<br /><blockquote style="font-family: courier new; color: rgb(0, 102, 0);"><div class="CodeRay">
+  <div class="code"><pre>void sendPulse(int pinNumber, int pulseWidth) {digitalWrite(pinNumber, HIGH);delayMicroseconds(pulseWidth);digitalWrite(pinNumber, LOW);}</pre></div>
+</div>
+</blockquote>Now the loop function looks like this:<br /><blockquote style="color: rgb(0, 102, 0); font-family: courier new;"><div class="CodeRay">
+  <div class="code"><pre>void loop() {if(millis() - lastPulse &gt; 20) { lastPulse=millis(); sendPulse(servo1Pin, 1000); sendPulse(servo2Pin, 1200); sendPulse(servo3Pin, 1400); sendPulse(servo4Pin, 1600); sendPulse(servo5Pin, 1800); sendPulse(servo6Pin, 2000);}}</pre></div>
+</div>
+</blockquote>That's much better!<p />Here's the finished program... happy coding!<br /><blockquote><div class="CodeRay">
+  <div class="code"><pre>#define servo1Pin 1#define servo2Pin 2#define servo3Pin 3#define servo4Pin 4#define servo5Pin 5#define servo6Pin 6long lastPulse = 0;void setup() { pinMode(servo1Pin, OUTPUT); pinMode(servo2Pin, OUTPUT); pinMode(servo3Pin, OUTPUT); pinMode(servo4Pin, OUTPUT); pinMode(servo5Pin, OUTPUT); pinMode(servo6Pin, OUTPUT);}void loop() { if(millis() - lastPulse &gt; 20) {  lastPulse=millis();  sendPulse(servo1Pin, 1000);  sendPulse(servo2Pin, 1200);  sendPulse(servo3Pin, 1400);  sendPulse(servo4Pin, 1600);  sendPulse(servo5Pin, 1800);  sendPulse(servo6Pin, 2000); }}void sendPulse(int pinNumber, int pulseWidth) { digitalWrite(pinNumber, HIGH); delayMicroseconds(pulseWidth); digitalWrite(pinNumber, LOW);}</pre></div>
+</div>
+</blockquote><p />Next time I'll be posting an example of how to use external input to control the servos!<div class="blogger-post-footer"><img class="posterous_download_image" src="https://blogger.googleusercontent.com/tracker/1087162989855557355-3497173825073832806?l=roborobert.com" height="1" alt="" width="1" /></div>
