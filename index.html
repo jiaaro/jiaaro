@@ -5,6 +5,7 @@ title: Jiaaro (on life, the universe, & everything)
 
 {% for post in paginator.posts %}
   <article>
+      {% assign content = post.content %}
       {% include post_content.html %}
   </article>
   <div class="clear"></div>
