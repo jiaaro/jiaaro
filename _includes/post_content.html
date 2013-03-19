@@ -1,0 +1,16 @@
+<header>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <time>{{ post.date | date: "%B %d, %Y" }}</time>
+</header>
+<section>
+    {{ post.content }}
+</section>
+<footer>
+    <div class="sharebar">
+      <strong>⬆ Share this:</strong> 
+      <a href="#">twitter</a>
+      <a href="#">facebook</a>
+      <a href="#">linkedin</a>
+      <a href="#">email</a>
+    </div>
+</footer>

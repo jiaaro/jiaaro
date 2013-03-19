@@ -1,25 +1,26 @@
 ---
 layout: default
-title: Biz vs Dev Podcast
+title: Jiaaro (on life, the universe, & everything)
 ---
 
-{% for i in (1..5) %}
+{% for post in paginator.posts %}
   <article>
-      <header>
-          <time datetime="2013-02-25">February 25, 2013</time>
-          <h1>Ep 3. A Brave New World</h1>
-      </header>
-      <section>
-          <object height="81" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F57066022&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false&amp;show_playcount=false&amp;show_comments=false"></param><param name="allowscriptaccess" value="always"></param><embed allowscriptaccess="always" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F57066022&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false&amp;show_playcount=false&amp;show_comments=false" type="application/x-shockwave-flash" width="100%" height="81"></embed></object>                        
-      </section>
-      <footer>
-          <div class="sharebar">
-            <strong>Share this:</strong> 
-            <a href="#">twitter</a>
-            <a href="#">facebook</a>
-            <a href="#">linkedin</a>
-            <a href="#">email</a>
-          </div>
-      </footer>
+      {% include post_content.html %}
   </article>
+  <div class="clear"></div>
 {% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="/page{{paginator.previous_page}}" class="previous">◀</a>
+  {% else %}
+    <span class="previous">◃</span>
+  {% endif %}
+  <span class="page_number ">page {{paginator.page}} of {{paginator.total_pages}}</span>
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="next ">▶</a>
+  {% else %}
+    <span class="next">▷</span>
+  {% endif %}
+</div>
