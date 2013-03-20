@@ -5,34 +5,30 @@ published: true
 ---
 <p>So I made a discovery today... I was profiling iterators against their list comprehension counterparts and discovered that iterators are actually slower.<p />Not always slower though. They're slower if you're evaluating every object in the list.<p />Here is my test code:</p>
 
-<p>[code]
+{% highlight python %}
 def iters():
-&nbsp;&nbsp;&nbsp; x = (x+1 for x in xrange(1,10000))
-&nbsp;&nbsp;&nbsp; y = (y/1.5 for y in x)
-&nbsp;&nbsp;&nbsp; z = [z**2 for z in y]
+    x = (x+1 for x in xrange(1,10000))
+    y = (y/1.5 for y in x)
+    z = [z**2 for z in y]
 
 def listcomps():
-&nbsp;&nbsp;&nbsp; x = [x+1 for x in xrange(1,10000)]
-&nbsp;&nbsp;&nbsp; y = [y/1.5 for y in x]
-&nbsp;&nbsp;&nbsp; z = [z**2 for z in y]
+    x = [x+1 for x in xrange(1,10000)]
+    y = [y/1.5 for y in x]
+    z = [z**2 for z in y]
 
-&gt;&gt;&gt; %timeit iters()
+>>> %timeit iters()
 100 loops, best of 3: 5.38 ms per loop
 
-&gt;&gt;&gt; %timeit listcomps()
+>>> %timeit listcomps()
 100 loops, best of 3: 4.06 ms per loop
-[/code]</p>
+{% endhighlight %}
 
-<p><br />I guess I shouldn't be surprised. There has to be some overhead to setting up the iterator, and if there were more elements, or if they were bigger (like django ORM objects), it probably wouldn't be as noticable.<p />I'd be interested to hear about practical applications though, so leave a comment =D<p /><span style="font-weight: bold; font-size: 130%;">Advantages of the Iterator (even though it's slower)</span></p>
+<p>I guess I shouldn't be surprised. There has to be some overhead to setting up the iterator, and if there were more elements, or if they were bigger (like django ORM objects), it probably wouldn't be as noticable.<p />I'd be interested to hear about practical applications though, so leave a comment =D<p /><span style="font-weight: bold; font-size: 130%;">Advantages of the Iterator (even though it's slower)</span></p>
 
 <ul>
-
-<li>Uses less memory, since you don't store those lists in RAM</li>
-
-<li>May actually be faster if you don't operate on all it's elements (useful if you don't know how many you'll use)</li>
-
+    <li>Uses less memory, since you don't store those lists in RAM</li>
+    <li>May actually be faster if you don't operate on all it's elements (useful if you don't know how many you'll use)</li>
 </ul>
 
-<p><br /><span style="font-weight: bold;">Another note</span>: You can't use those iterators again. Once you've cycled through the elements... that's it. You'll need to re-declare it.<p />The RAM saving and deferred execution will probably come in handy in my always-RAM-strapped django apps =D</p>
-
-<div class="blogger-post-footer"><img class="posterous_download_image" src="https://blogger.googleusercontent.com/tracker/1087162989855557355-6087722671934883748?l=roborobert.com" height="1" alt="" width="1" /></div>
+<p><strong>Another note</strong>: You can't use those iterators again. Once you've cycled through the elements... that's it. You'll need to re-declare it.</p>
+<p>The RAM saving and deferred execution will probably come in handy in my always-RAM-strapped django apps =D</p>

@@ -3,17 +3,22 @@ layout: post
 title: SSL Certificates are Miserable
 published: true
 ---
-<p>So... I was tasked with setting up https for a website recently. I was setting up Nginx with an ssl certificate from thawte. <p />Pretty normal. Pretty standard. Pretty aweful.<p />Here's to helping the next guy get through the process quicker than I did.<p /> <strong><span style="font-size: large;">Testing</span></strong></p>
-<p />
-<div>Before you start. <strong>Don't use a browser or openssl</strong> to test your config. It will waste your time and make you unhappy. </div>
-<p />
-<div>Use this tool to test your ssl config:<br /> 
+<p>So... I was tasked with setting up https for a website recently. I was setting up Nginx with an ssl certificate from thawte. </p>
+<p>Pretty normal. Pretty standard. Pretty aweful.<p />Here's to helping the next guy get through the process quicker than I did.</p>
+<h2>Testing</h2>
+
+<p>Before you start. <strong>Don't use a browser or openssl</strong> to test your config. It will waste your time and make you unhappy. </p>
+
+<p>Use this tool to test your ssl config:</p> 
+
 <ul>
-<li><a href="http://www.digicert.com/help/">http://www.digicert.com/help/</a></li>
+  <li><a href="http://www.digicert.com/help/">http://www.digicert.com/help/</a></li>
 </ul>
-<p />
+
 <h2>Certificate Signing Requests (*.csr), PEM Files, Intermediary Certificates, root CACertificate, Secondary Certificate BS, and more</h2>
+
 <p>You should know Apache and several other web servers expect your ssl certificate to be in a separate file from the intermediary certificates Like this <a href="http://www.apache-ssl.org/httpd.conf.example">example http.conf</a></p>
+
 {% highlight bash %}
 # your key file (often called www.example.com.key or privatekey.pem)
 SSLCertificateKeyFile /www/certs/ssl.fictional.co.key
@@ -24,8 +29,9 @@ SSLCertificateFile /www/certs/ssl.fictional.co.cert
 #intermediary certificates (often a *.crt or *.pem file)
 SSLCACertificateFile /www/certs/CA.cert
 {% endhighlight %}
+
 <p>ok great... but some other web servers expect <strong>your intermediary certificates to be concatenated with your ssl certificate</strong> (i.e. the one you paid for). So open up notepad and copy/paste that CA.cert into the end of your ssl.fictional.co.cert and hit save.</p>
-<p> </p>
+
 <h2>What about Nginx?</h2>
 <p>now your nginx config for ssl (<a href="http://wiki.nginx.org/HttpSslModule">documentation here</a>) will look like this:</p>
 {% highlight nginx %}
@@ -44,5 +50,5 @@ http {
   }
 }
 {% endhighlight %}
-<p>Conclusion. SSL<br /> is a pain in the ass.</p>
-</div>
+<p>Conclusion. SSL…<br /> is a pain in the ass.</p>
+
