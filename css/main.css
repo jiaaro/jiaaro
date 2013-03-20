@@ -207,7 +207,13 @@ article::after {
   text-decoration: none;
   color: inherit;
 }
-
+.sharebar {
+  margin: 40px 0 20px;
+  text-align: center;
+}
+.sharebar a {
+  margin: 0 10px;
+}
 
 
 
