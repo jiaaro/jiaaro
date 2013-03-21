@@ -14,7 +14,11 @@ title: Jiaaro (on life, the universe, & everything)
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="/page{{paginator.previous_page}}" class="previous">◀</a>
+    {% if paginator.previous_page == 1 %}
+      <a href="/" class="previous">◀</a>
+    {% else %}
+      <a href="/page{{paginator.previous_page}}" class="previous">◀</a>
+    {% endif %}
   {% else %}
     <span class="previous">◃</span>
   {% endif %}
