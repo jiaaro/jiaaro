@@ -65,9 +65,15 @@ Here's the color key from the foreman's clipboard:
 
 So our data set has some apples which are red, green, and yellow, and a bunch of bananas which are all yellow except one that is green.
 
-All our factory workers are home learning to maintain fruit classifying robots and brushing up on their marxism.
+It's 9 AM.
 
-…and the first fruit rolls onto the classification machine:
+A loud bell rings.
+
+The conveyor belt starts turning, and fruit starts flowing in from outside. 
+
+But the factory is empty. All our factory workers are home learning to maintain fruit classifying robots and re-reading the primitive accumulation of wealth.
+
+…and the first fruit rolls onto the classification machine.
  
 What is this thing?
    
@@ -274,7 +280,7 @@ That's a really good point. Maybe the number of seeds is **much** more important
 
 ## Neutralizing the effects of different units
 
-Right now our weight values are much bigger than our color ones, which we've discretized to single digit numbers.
+Right now your weight values are much bigger than our color ones, which we've discretized to single digit numbers.
 
 That means weight is causing much bigger changes in distance between fruits than color is.
 
