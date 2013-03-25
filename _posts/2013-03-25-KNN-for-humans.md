@@ -4,31 +4,31 @@ title: "Machine Learning for Humans: K Nearest-Neighbor"
 published: true
 ---
 
-I've been reading Peter Harrington's "*[Machine Learning in Action][2]*," and it's packed with useful stuff! However, while providing a large number of ML (machine learning) algorithms and sufficient example code to learn how they work, the book is a bit dry.
+I've been reading Peter Harrington’s “*[Machine Learning in Action][2]*,” and it’s packed with useful stuff! However, while providing a large number of ML (machine learning) algorithms and sufficient example code to learn how they work, the book is a bit dry.
 
 So I've decided to make my contribution to democratizing ML by posting simple explanations of these algorithms.
 
 ## Why Python?
 
-Pure Python isn't the most (computationally) efficient way to implement these algorithms, but that isn't the purpose here. The goal is to help *humans* understand how these algorithms work. Python is great for that. That's why the book uses Python as well. 
+Pure Python isn't the most (computationally) efficient way to implement these algorithms, but that isn't the purpose here. The goal is to help *humans* understand how these algorithms work. Python is great for that. That’s why the book uses Python as well. 
 
 But Harrington takes the alternate route of using the (very powerful) numpy from the get-go, which is more performant, but much less clear, at the expense of the reader. 
 
-Well that's crap; let's start learning!
+Well that’s crap; let’s start learning!
 
 ## What is KNN (K nearest neighbor) good for?
 
 This is a good question to answer up front. Why are we doing this in the first place?
 
-KNN is a "classifier", which is a type of algorithm that (you guessed it) classifies things. 
+KNN is a “classifier”, which is a type of algorithm that (you guessed it) classifies things. 
 
-Let's put it in more concrete terms: We want to teach the computer to answer the question, “**What kind of fruit is this?**”
+Let’s put it in more concrete terms: We want to teach the computer to answer the question, “**What kind of fruit is this?**”
 
 You're the owner of an orchard, and you're tired of paying workers to sort your fruits on the assembly line. The job is boring, the workers hate it, and you already measure the weight and color of every fruit on the line anyway. It should be simple enough to have a machine do it.
 
 You have a set of already classified (categorized, tagged, etc)  information - and you want to automatically figure out where new data (fruits) fits into your classification automatically. i.e., Is it an Apple or a Banana?
 
-Here's some fruit the workers logged before they got shit-canned:
+Here’s some fruit the workers logged before they got shit-canned:
 
      --------------------------------------------
     |  weight (g)  |   color  ||  Type of fruit  |
@@ -52,9 +52,9 @@ Here's some fruit the workers logged before they got shit-canned:
     |  371         |  3       ||  Apple          |
      --------------------------------------------
 
-Notice they assigned numbers to the colors, that's useful because we need to do math with these values (numbering non-numerical stuff is known as [discretizing][1]). The colors are in order of the color wheel, so similar colors *are* closer together than less similar colors. 
+Notice they assigned numbers to the colors, that’s useful because we need to do math with these values (numbering non-numerical stuff is known as [discretizing][1]). The colors are in order of the color wheel, so similar colors *are* closer together than less similar colors. 
 
-Here's the color key from the foreman's clipboard:
+Here’s the color key from the foreman’s clipboard:
 
           red         1
           orange      2
@@ -65,7 +65,7 @@ Here's the color key from the foreman's clipboard:
 
 So our data set has some apples which are red, green, and yellow, and a bunch of bananas which are all yellow except one that is green.
 
-It's 9 AM.
+It’s 9 AM.
 
 A loud bell rings.
 
@@ -84,7 +84,7 @@ We better write some software to handle that fruit before it rots!
 
 How do we decide whether this unknown fruit is an apple or banana? 
     
-The K-nearest-neighbor approach is to calculate the distance between our unknown fruit and each of the known fruits and assume the "k" closest fruits are probably the same type of fruit.
+The K-nearest-neighbor approach is to calculate the distance between our unknown fruit and each of the known fruits and assume the “k” closest fruits are probably the same type of fruit.
 
 Sort of like graphing all the fruits and drawing a circle around the ”?”. Whatever is closest to it is probably the same kind of fruit.
 
@@ -100,7 +100,7 @@ Sort of like graphing all the fruits and drawing a circle around the ”?”. Wh
                  1   2   3   4   5   6              
                         color
 
-        note: the question mark is the "unknown fruit"
+        note: the question mark is the “unknown fruit”
 
 ## Math is delicious
 
@@ -116,7 +116,7 @@ If you don't remember: this is the formula for calculating the hypotenous (see: 
          -----
            5    K
 
-You could also say “longitude” instead of “height”, “latitude” instead of “width” and say you're calculating the "distance" from point "J" to point "K". 
+You could also say “longitude” instead of “height”, “latitude” instead of “width” and say you're calculating the “distance“ from point “J“ to point “K". 
 
 That part is crucial. 
 
@@ -191,7 +191,7 @@ dataset = [
 ]
 {% endhighlight %}    
 
-…and with that being said, let's sort the dataset using this function…
+…and with that being said, let’s sort the dataset using this function…
 
 {% highlight python %}
 # using the distance() function from above, sort
@@ -225,7 +225,7 @@ Here is the table of distances from our unknown fruit to the known fruits in the
        |  277         |  3       ||  Banana         |  96.0
         --------------------------------------------
         
-At this point, which classification the unknown fruit belongs to is determined by taking a vote of the "k" nearest neighbors – so if "k" is 3, then we take the top 3 fruits by distance and select whichever is most common.
+At this point, which classification the unknown fruit belongs to is determined by taking a vote of the “k“ nearest neighbors – so if “k“ is 3, then we take the top 3 fruits by distance and select whichever is most common.
 
 {% highlight python %}
 # from the python std library
@@ -246,11 +246,11 @@ classification = max(class_counts, key=lambda cls: class_counts[cls])
 classification == "apple"
 {% endhighlight %}      
   
-In this case we see that the top 3 are all "Apple" so we conclude this unknown fruit must be an apple.
+In this case we see that the top 3 are all “Apple“ so we conclude this unknown fruit must be an apple.
 
 You can expand this to more more than two features though. You can actually use that distance formula from earlier with as many dimensions as you want.
 
-Let's try it with 4:
+Let’s try it with 4:
 
 {% highlight python %}
     e == (a**2 + b**2 + c**2 + d**2) **0.5
@@ -276,7 +276,7 @@ True. This code is designed to make it easy to understand… in real life, you s
 
 > You: **What if one factor is more important than the others?**
 
-That's a really good point. Maybe the number of seeds is **much** more important than the color of the fruit ([it is][3]), but color is still an important differentiator among fruits with the same number of seeds?
+That’s a really good point. Maybe the number of seeds is **much** more important than the color of the fruit ([it is][3]), but color is still an important differentiator among fruits with the same number of seeds?
 
 ## Neutralizing the effects of different units
 
@@ -288,7 +288,7 @@ What are we going to do about that?
 
 Well, what if we measure all our inputs on a scale of 0 - 1.0?
 
-## That's Normalization Kyle!
+## That’s Normalization Kyle!
 
 In short, we're going to take the *biggest value in the dataset* and the *smallest value in the dataset* and put all the other numbers on a scale of 0.0 - 1.0 from smallest to biggest.
 
@@ -322,9 +322,9 @@ If you're going to normalize your dataset, you have to normalize *all the column
 
 ### Wait, but I thought we mainly cared about seeds?
 
-Right. So once you've done this, let's say you want number of seeds to be twice as important as weight and color to be half as important as weight.
+Right. So once you've done this, let’s say you want number of seeds to be twice as important as weight and color to be half as important as weight.
 
-You'd just multiply the "number of seeds" value for every fruit in your dataset by 2.0, and multiply the "color" value of every fruit in your dataset by 0.5. Try calculating the weights now.
+You'd just multiply the “number of seeds“ value for every fruit in your dataset by 2.0, and multiply the “color“ value of every fruit in your dataset by 0.5. Try calculating the weights now.
 
 These are magic numbers that (like the K value) need to be tested and tweaked to see what will work best for you.
 
@@ -393,7 +393,7 @@ dataset = [
 ]
 {% endhighlight %}
 
-After you've classified the 3 Unknown Fruits, consider which columns you could remove without losing any accuracy. It's often the case that simpler classifiers are better, and the facets of your data may not be as related as you originally thought!
+After you've classified the 3 Unknown Fruits, consider which columns you could remove without losing any accuracy. It’s often the case that simpler classifiers are better, and the facets of your data may not be as related as you originally thought!
 
 ---
 
