@@ -4,7 +4,7 @@ title: "Machine Learning for Humans: K Nearest-Neighbor"
 published: true
 ---
 
-I've been reading Peter Harrington's "Machine Learning in Action," and it's packed with useful stuff! However, while providing a large number of ML (machine learning) algorithms and sufficient example code to learn how they work, the book is a bit dry.
+I've been reading Peter Harrington's "*[Machine Learning in Action][2]*," and it's packed with useful stuff! However, while providing a large number of ML (machine learning) algorithms and sufficient example code to learn how they work, the book is a bit dry.
 
 So I've decided to make my contribution to democratizing ML by posting simple explanations of these algorithms.
 
@@ -22,13 +22,13 @@ This is a good question to answer up front. Why are we doing this in the first p
 
 KNN is a "classifier", which is a type of algorithm that (you guessed it) classifies things. 
 
-Let's put it in more concrete terms: We want to teach the computer to answer the question, **What kind of fruit is this?**
+Let's put it in more concrete terms: We want to teach the computer to answer the question, “**What kind of fruit is this?**”
 
 You're the owner of an orchard, and you're tired of paying workers to sort your fruits on the assembly line. The job is boring, the workers hate it, and you already measure the weight and color of every fruit on the line anyway. It should be simple enough to have a machine do it.
 
 You have a set of already classified (categorized, tagged, etc)  information - and you want to automatically figure out where new data (fruits) fits into your classification automatically. i.e., Is it an Apple or a Banana?
 
-Here's some fruit we already measured:
+Here's some fruit the workers logged before they got shit-canned:
 
      --------------------------------------------
     |  weight (g)  |   color  ||  Type of fruit  |
@@ -52,11 +52,10 @@ Here's some fruit we already measured:
     |  371         |  3       ||  Apple          |
      --------------------------------------------
 
-In this naive example, we've assigned numbers to the colors, because we need to do math with these values (known as [discretizing][1]). The colors are in order of the color wheel, so similar colors *are* closer together than less similar colors. 
+Notice they assigned numbers to the colors, that's useful because we need to do math with these values (numbering non-numerical stuff is known as [discretizing][1]). The colors are in order of the color wheel, so similar colors *are* closer together than less similar colors. 
 
-This will be good enough for our example.
+Here's the color key from the foreman's clipboard:
 
-        colors:
           red         1
           orange      2
           yellow      3
@@ -66,19 +65,22 @@ This will be good enough for our example.
 
 So our data set has some apples which are red, green, and yellow, and a bunch of bananas which are all yellow except one that is green.
 
-Now we've sent home all our factory workers and the first fruit rolls onto
-the classification machine:
+All our factory workers are home learning to maintain fruit classifying robots and brushing up on their marxism.
+
+…and the first fruit rolls onto the classification machine:
  
 What is this thing?
    
         Weight:  373g
         color:   1 (red)
 
-How do we decide whether this unknown fruit is an apple or banana?
+We better write some software to handle that fruit before it rots!
+
+How do we decide whether this unknown fruit is an apple or banana? 
     
-The KNN approach is to calculate the distance between our unknown fruit 
-and each of the known fruits and assume the "k" closest fruits are probably
-the same type of fruit.
+The K-nearest-neighbor approach is to calculate the distance between our unknown fruit and each of the known fruits and assume the "k" closest fruits are probably the same type of fruit.
+
+Sort of like graphing all the fruits and drawing a circle around the ”?”. Whatever is closest to it is probably the same kind of fruit.
 
                    Graph of Fruits
              |
@@ -92,11 +94,11 @@ the same type of fruit.
                  1   2   3   4   5   6              
                         color
 
-note: the question mark is the "unknown fruit"
+        note: the question mark is the "unknown fruit"
 
 ## Math is delicious
 
-Before we can start with the KNN algorithm, we need to do a little math review. Remember good old pythagorus? a² + b² = c² right? If you're comfortable with this, skip to the next section.
+Before we can start with the KNN algorithm, we need to do a little math review. Remember good old pythagorus? a² + b² = c² right? If you're comfortable with this, just skip to the next section.
 
 If you don't remember: this is the formula for calculating the hypotenous (see: the diagonal side) of a right triangle.
 
@@ -220,6 +222,7 @@ Here is the table of distances from our unknown fruit to the known fruits in the
 At this point, which classification the unknown fruit belongs to is determined by taking a vote of the "k" nearest neighbors – so if "k" is 3, then we take the top 3 fruits by distance and select whichever is most common.
 
 {% highlight python %}
+# from the python std library
 from collections import Counter
 
 # take only the first K items
@@ -261,11 +264,11 @@ c = fruit1[2] - fruit2[2]
 distance = (a**2 + b**2 + c**2) **0.5
 {% endhighlight %}
 
-### This is repetitive
+> You: **This is repetitive**
 
 True. This code is designed to make it easy to understand… in real life, you should use numpy (or similar) for performance reasons anyway (ML is very computationally expensive).
 
-### What if one factor is more important than the others?
+> You: **What if one factor is more important than the others?**
 
 That's a really good point. Maybe the number of seeds is **much** more important than the color of the fruit (it is), but color is still an important differentiator among fruits with the same number of seeds?
 
@@ -391,3 +394,4 @@ After you've classified the 3 Unknown Fruits, consider which columns you could r
 This is my first crack at this type of tutorial, so please give me feedback, and/or corrections! (email: [blog@jiaaro.com](mailto:blog@jiaaro.com) )
 
 [1]: http://en.wiktionary.org/wiki/discretization
+[2]: http://amzn.to/16UaKU2
