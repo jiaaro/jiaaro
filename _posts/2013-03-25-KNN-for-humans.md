@@ -86,7 +86,7 @@ How do we decide whether this unknown fruit is an apple or banana?
     
 The K-nearest-neighbor approach is to calculate the distance between our unknown fruit and each of the known fruits and assume the “k” closest fruits are probably the same type of fruit.
 
-Sort of like graphing all the fruits and drawing a circle around the ”?”. Whatever is closest to it is probably the same kind of fruit.
+Sort of like graphing all the fruits and drawing a circle around the “?”. Whatever is closest to it is probably the same kind of fruit.
 
                    Graph of Fruits
              |
