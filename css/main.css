@@ -148,7 +148,11 @@ time::before, time::after {
 time::before { float: left; }
 time::after { float: right; }
 
-
+.header-nav {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
 .header-container {
   position: relative;
   padding: 15px 0;
@@ -206,17 +210,17 @@ article::after {
 }
 .footer-left { float: left; }
 .footer-right { float: right; text-align: right; }
-.footer-container ul {
+nav ul {
   padding: 0; margin: 0;
 }
-.footer-container li {
+nav li {
   display: inline;
   padding: 0; 
   margin: 0 0 0 20px;
   list-style: none;
   font-size: 12px;
 }
-.footer-container a {
+nav a {
   text-decoration: none;
   color: inherit;
 }
