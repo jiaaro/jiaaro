@@ -104,7 +104,7 @@ Sort of like graphing all the fruits and drawing a circle around the ”?”. Wh
 
 ## Math is delicious
 
-Before we can start with the KNN algorithm, we need to do a little math review. Remember good old pythagorus? a² + b² = c² right? If you're comfortable with this, just skip to the next section.
+Before we can start with the KNN algorithm, we need to do a little math review. Remember good old pythagorus? a² + b² = c² right? If you're comfortable with this, just [skip to the next section](#ok_back_to_knn).
 
 If you don't remember: this is the formula for calculating the hypotenous (see: the diagonal side) of a right triangle.
 
@@ -276,7 +276,7 @@ True. This code is designed to make it easy to understand… in real life, you s
 
 > You: **What if one factor is more important than the others?**
 
-That's a really good point. Maybe the number of seeds is **much** more important than the color of the fruit (it is), but color is still an important differentiator among fruits with the same number of seeds?
+That's a really good point. Maybe the number of seeds is **much** more important than the color of the fruit ([it is][3]), but color is still an important differentiator among fruits with the same number of seeds?
 
 ## Neutralizing the effects of different units
 
@@ -401,3 +401,4 @@ This is my first crack at this type of tutorial, so please give me feedback, and
 
 [1]: http://en.wiktionary.org/wiki/discretization
 [2]: http://amzn.to/16UaKU2
+[3]: http://www.mainstreettrees.com/apples/
