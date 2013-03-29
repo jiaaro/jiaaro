@@ -8,8 +8,8 @@
 <footer>
     <div class="sharebar">
       <strong>⬆⬆⬆ Share this ⬆⬆⬆</strong><br> 
-      <a href="http://twitter.com/home?status={{ post.title | cgi_escape }} {{ site.url | cgi_escape }}{{ post.url | cgi_escape }} @jiaaro" target="_blank">twitter</a>
-      <a href="http://news.ycombinator.com/submitlink?u={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}&t={{ post.title | cgi_escape }}">hacker news</a>
-      <a href="mailto:?subject={{ post.title | uri_escape }} ({{ site.name | cgi_escape }})&body=%0a%0a%0a%0a%0a{{ post.title | uri_escape }}%0a{{ site.url | cgi_escape }}{{ post.url | cgi_escape }}">email</a>
+      <a data-network="twitter" data-title="{{ post.title | uri_escape }}" href="http://twitter.com/home?status={{ post.title | cgi_escape }} {{ site.url | cgi_escape }}{{ post.url | cgi_escape }} @jiaaro" target="_blank">twitter</a>
+      <a data-network="hacker news" data-title="{{ post.title | uri_escape }}"href="http://news.ycombinator.com/submitlink?u={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}&t={{ post.title | cgi_escape }}">hacker news</a>
+      <a data-network="email" data-title="{{ post.title | uri_escape }}"href="mailto:?subject={{ post.title | uri_escape }} ({{ site.name | cgi_escape }})&body=%0a%0a%0a%0a%0a{{ post.title | uri_escape }}%0a{{ site.url | cgi_escape }}{{ post.url | cgi_escape }}">email</a>
     </div>
 </footer>
