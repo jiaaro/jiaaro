@@ -92,7 +92,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.15em;
 }
 h1 {
-  font-size: 36px;
+  margin: 30px 0;
+  font-size: 40px;
   letter-spacing: -2px;
 }
 h2 {
@@ -194,6 +195,28 @@ article::after {
   position: relative;
   top: 24px;
 }
+.archive-article-list, .archive-article-list li {
+  margin: 0; padding: 0; list-style: none;
+}
+.archive-article-list h1 {
+  font-size: 32px;
+}
+.archive-article-list li {
+  padding: 45px 0 15px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #666;
+}
+.archive-article-list li:last-child {
+  border-bottom: none;
+}
+.archive-article-list time {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: -30px;
+}
+.archive-article-list time::before, .archive-article-list time::after {
+  display: none;
+}
 .pagination {
   text-align: center;
 }
@@ -211,10 +234,9 @@ article::after {
   padding: 20px 0;
 }
 .footer-left, .footer-right {
-  width: 290px;
   margin: 0;
 }
-.footer-left { float: left; }
+.footer-left { float: left; font-size: 14px; }
 .footer-right { float: right; text-align: right; }
 nav ul {
   padding: 0; margin: 0;
