@@ -4,6 +4,8 @@ title: "Machine Learning for Humans: K Nearest-Neighbor"
 published: true
 ---
 
+[![Machine Learning in Action - cover][4]][2]
+
 I've been reading Peter Harrington’s “*[Machine Learning in Action][2]*,” and it’s packed with useful stuff! However, while providing a large number of ML (machine learning) algorithms and sufficient example code to learn how they work, the book is a bit dry.
 
 So I've decided to make my contribution to democratizing ML by posting simple explanations of these algorithms.
@@ -402,3 +404,4 @@ This is my first crack at this type of tutorial, so please give me feedback, and
 [1]: http://en.wiktionary.org/wiki/discretization
 [2]: http://amzn.to/16UaKU2
 [3]: http://www.mainstreettrees.com/apples/
+[4]: /img/MLIA.jpg
