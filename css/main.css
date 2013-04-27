@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.5em;
   letter-spacing: -2px;
+  margin: 30px 0;
 }
 h2 {
   font-size: 1.75em;
@@ -160,6 +161,27 @@ time::before, time::after {
 }
 time::before { float: left; }
 time::after { float: right; }
+
+@media (min-width: 1200px) {
+  time:before, time:after { display: none; }
+  .main header { position: relative; }
+  time {
+    text-align: right;
+    width: 300px;
+    position: absolute;
+    top: 4px;
+    left: -330px;
+    color: #666;
+    font-size: 0.8em;
+    -ms-transform-origin: 300px 0;
+    -ms-transform: rotate(-90deg) translateY(-30px);
+    -webkit-transform-origin: 300px 0;
+    -webkit-transform: rotate(-90deg) translateY(-30px);
+    transform-origin: 300px 0;
+    transform: rotate(-90deg) translateY(-30px);
+
+  }
+}
 
 .header-nav {
   position: absolute;
