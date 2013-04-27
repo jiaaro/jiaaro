@@ -179,7 +179,8 @@ time::after { float: right; }
     -webkit-transform: rotate(-90deg) translateY(-30px);
     transform-origin: 300px 0;
     transform: rotate(-90deg) translateY(-30px);
-
+    text-transform: none;
+    font-style: italic;
   }
 }
 
