@@ -70,6 +70,7 @@ body {
     min-width: 560px;
     max-width: 760px;
     margin: 0 auto;
+    text-rendering: optimizelegibility;
 }
 
 @media (max-width: 639px) {
