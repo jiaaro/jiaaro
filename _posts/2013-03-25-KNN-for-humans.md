@@ -73,7 +73,7 @@ A loud bell rings.
 
 The conveyor belt starts turning, and fruit starts flowing in from outside. 
 
-But the factory is empty. All our factory workers are home learning to maintain fruit classifying robots and re-reading the primitive accumulation of wealth.
+But the factory is empty. All our factory workers are home learning to maintain fruit classifying robots and re-reading the [primitive accumulation of wealth](http://www.marxists.org/archive/marx/works/1867-c1/ch32.htm).
 
 …and the first fruit rolls onto the classification machine.
  
