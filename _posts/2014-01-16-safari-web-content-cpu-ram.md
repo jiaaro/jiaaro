@@ -34,4 +34,6 @@ Another theory I have about which sites to remove from Top Sites is ones that us
 Safari has to run and render all code in the website in order to generate the preview. The more code it has to run, the more potential for problems.
 
 Anyway hope this helps some poor person with this problem :)
+
+**edit**: I've just discovered that if you hover over the “Safari Web Content” item in Activity Monitor, the hover text will show the url of the page being rendered!
     
