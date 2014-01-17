@@ -32,6 +32,7 @@ You have a set of already classified (categorized, tagged, etc)  information - a
 
 Here’s some fruit the workers logged before they got shit-canned:
 
+```
      --------------------------------------------
     |  weight (g)  |   color  ||  Type of fruit  |
     |==============|==========||=================|
@@ -53,17 +54,20 @@ Here’s some fruit the workers logged before they got shit-canned:
     |  305         |  3       ||  Banana         |
     |  371         |  3       ||  Apple          |
      --------------------------------------------
+```
 
 Notice they assigned numbers to the colors, that’s useful because we need to do math with these values (numbering non-numerical stuff is known as [discretizing][1]). The colors are in order of the color wheel, so similar colors *are* closer together than less similar colors. 
 
 Here’s the color key from the foreman’s clipboard:
 
+```
           red         1
           orange      2
           yellow      3
           green       4
           blue        5
           purple      6
+```
 
 So our data set has some apples which are red, green, and yellow, and a bunch of bananas which are all yellow except one that is green.
 
@@ -78,9 +82,11 @@ But the factory is empty. All our factory workers are home learning to maintain 
 …and the first fruit rolls onto the classification machine.
  
 What is this thing?
-   
-        Weight:  373g
-        color:   1 (red)
+
+```   
+    Weight:  373g
+    color:   1 (red)
+```
 
 We better write some software to handle that fruit before it rots!
 
@@ -90,6 +96,7 @@ The K-nearest-neighbor approach is to calculate the distance between our unknown
 
 Sort of like graphing all the fruits and drawing a circle around the “?”. Whatever is closest to it is probably the same kind of fruit.
 
+```
                    Graph of Fruits
              |
              |            
@@ -103,6 +110,7 @@ Sort of like graphing all the fruits and drawing a circle around the “?”. Wh
                         color
 
         note: the question mark is the “unknown fruit”
+```
 
 ## Math is delicious
 
@@ -110,6 +118,7 @@ Before we can start with the KNN algorithm, we need to do a little math review. 
 
 If you don't remember: this is the formula for calculating the hypotenous (see: the diagonal side) of a right triangle.
 
+```
          J
         | \
         |  \    
@@ -117,6 +126,7 @@ If you don't remember: this is the formula for calculating the hypotenous (see: 
         |    \   
          -----
            5    K
+```
 
 You could also say “longitude” instead of “height”, “latitude” instead of “width” and say you're calculating the “distance“ from point “J“ to point “K". 
 
@@ -124,11 +134,15 @@ That part is crucial.
 
 Well the real world isn't 2D, it'd 3D, but I have great news! You can do this in 3D too. So now we can calculate distances in a 3D space the same way:
 
-        a**2 + b**2 + c**2 == d**2
+{% highlight python %}
+    a**2 + b**2 + c**2 == d**2
+{% endhighlight %}
     
 or...
-    
-        d ==  (a**2 + b**2 + c**2) **0.5
+
+{% highlight python %}
+    d ==  (a**2 + b**2 + c**2) **0.5
+{% endhighlight %}
 
 aside: raising something to the .5 power (i.e., `**0.5`) is the same as taking the square root.
 
@@ -203,6 +217,7 @@ sorted_dataset = sorted(dataset, key=lambda fruit: distance(fruit, unknown_fruit
 
 Here is the table of distances from our unknown fruit to the known fruits in the data set.
 
+```
         --------------------------------------------
        |  weight (g)  |   color  ||  Type of fruit  |  distance
        |==============|==========||=================|
@@ -226,7 +241,8 @@ Here is the table of distances from our unknown fruit to the known fruits in the
        |  298         |  3       ||  Banana         |  75.0
        |  277         |  3       ||  Banana         |  96.0
         --------------------------------------------
-        
+```
+
 At this point, which classification the unknown fruit belongs to is determined by taking a vote of the “k“ nearest neighbors – so if “k“ is 3, then we take the top 3 fruits by distance and select whichever is most common.
 
 {% highlight python %}
@@ -348,6 +364,7 @@ I'm going to leave it as an exercise to the reader to apply these ideas (dataset
 
 dataset:
 
+```
      -------------------------------------------------------
     |  weight (g)  |  color  |  # seeds  ||  Type of fruit  |
     |==============|=========|===========||=================|
@@ -369,6 +386,7 @@ dataset:
     |  305         |  3      |  1        ||  Banana         |
     |  371         |  3      |  6        ||  Apple          |
      -------------------------------------------------------
+```
 
 as python:
 
