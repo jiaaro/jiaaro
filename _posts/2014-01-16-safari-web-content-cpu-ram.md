@@ -8,7 +8,8 @@ This post is a bit of a departure from my normal style, but it took me hours of 
 
 I'm using OS X 10.9.1 on a Mid-2010 MacBook Pro, Safari is version 7.0.1.
 
-![Activity Monitor](/img/2014-01-16-activity-monitor.png)
+<img src="/img/2014-01-16-activity-monitor.png" class="full" alt="Activity Monitor">
+
 
 **Edit**: I've also experieced this issue now on OS X 10.8.5 on a Mid-2010 iMac, in Safari 6.1 (Pretty much the same version of Safari)
 
@@ -32,7 +33,7 @@ You can disable Top Sites all together:
 
 2. Try to figure out which of your top sites is causing the issue. I suspect that if there is one with no preview (having the black background with a grey safari icon overlaid instead) it is probably the culprit, but I can't verify that. **[update]**: I have confirmed this to be the case.
 
-![Safari Top Sites](/img/2014-01-16-Top-Sites.png)
+<img src="/img/2014-01-16-Top-Sites.png" alt="Safari Top Sites" class="full">
 
 
 Another theory I have about which sites to remove from Top Sites is ones that use a lot of JavaScript or Flash.
