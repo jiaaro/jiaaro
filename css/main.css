@@ -63,11 +63,11 @@ html {
   height: 100%;
 }
 body {
-    font-family: "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+    font-family: "Austin Text Web", serif;
     line-height: 1.5em;
     color: #000;
     background: transparent;
-    min-width: 560px;
+    min-width: 460px;
     max-width: 760px;
     margin: 0 auto;
     text-rendering: optimizelegibility;
@@ -98,10 +98,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0.9em;
   color: #333;
   clear: both;
+  font-family: "Duplicate Slab Web", serif;
 }
 h1 {
   font-size: 2.5em;
-  letter-spacing: -2px;
   margin: 30px 0;
 }
 h2 {
@@ -146,11 +146,11 @@ hr {
 }
 time {
   display: block;
-  text-transform: uppercase;
   text-align: center;
   height: 1em;
   font-size: 0.85em;
   line-height: 1em;
+  font-style: italic;
 }
 time::before, time::after {
   content: '';
@@ -180,8 +180,6 @@ time::after { float: right; }
     -webkit-transform: rotate(-90deg) translateY(-30px);
     transform-origin: 300px 0;
     transform: rotate(-90deg) translateY(-30px);
-    text-transform: none;
-    font-style: italic;
   }
 }
 
@@ -198,7 +196,6 @@ time::after { float: right; }
 .header-container h1 {
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -5px;
   margin: 0;
   font-weight: normal;
   float: left;
@@ -208,8 +205,10 @@ time::after { float: right; }
   bottom: 20px; right: 0;
   font-size: 18px;
   margin: 0;
+  font-family: "Austin Text Web", serif;
   font-weight: normal;
   text-align: right;
+
 }
 article {
   padding-bottom: 20px;
@@ -266,7 +265,7 @@ article::after {
 .footer-left, .footer-right {
   margin: 0;
 }
-.footer-left { float: left; font-size: 14px; }
+.footer-left { float: left; font-size: 16px; }
 .footer-right { float: right; text-align: right; }
 nav ul {
   padding: 0; margin: 0;
@@ -274,9 +273,9 @@ nav ul {
 nav li {
   display: inline;
   padding: 0; 
-  margin: 0 0 0 20px;
+  margin: 0 0 0 15px;
   list-style: none;
-  font-size: 14px;
+  font-size: 16px;
 }
 nav a {
   text-decoration: none;
@@ -295,6 +294,9 @@ nav a {
 /* ==========================================================================
    Cruft
    ========================================================================== */
+pre, code, .highlight, .code {
+    font-family: "Source Code Pro", monospace;
+}
 pre {
     font-size: 16px;
     line-height: 20px;
@@ -303,8 +305,19 @@ pre {
   padding-left: 20px;
   border-left: 5px solid #999;
   margin-left: 1px;
-  font-size: 16px; 
+  font-size: 16px;
 }
+code {
+  background: rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 0 3px;
+  border-radius: 6px;
+}
+pre code {
+  background: none;
+  border: none;
+}
+
 
 /* ==========================================================================
    Mobile Version
@@ -450,3 +463,11 @@ pre {
         page-break-after: avoid;
     }
 }
+
+
+
+
+
+
+
+
