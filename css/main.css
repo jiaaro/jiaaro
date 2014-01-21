@@ -166,7 +166,7 @@ time::after { float: right; }
 @media (min-width: 1200px) {
   time:before, time:after { display: none; }
   .main header { position: relative; }
-  time {
+  header time {
     text-align: right;
     width: 300px;
     position: absolute;
