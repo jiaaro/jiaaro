@@ -355,7 +355,7 @@ I'm going to leave it as an exercise to the reader to apply these ideas (dataset
  3. Apply weights to the columns:
     - Color is least important: give it a weight of 0.5
     - Weight is a good differentiator: give it a weight of 1.0
-    - # of Seeds is most important: give it a weight of 2.0
+    - `# of Seeds` is most important: give it a weight of 2.0
  4. Classify these 3 unknown fruits (UFs) using your classifier
 
     - UF1: [color: green, weight: 301g, seeds: 1]
