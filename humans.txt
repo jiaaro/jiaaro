@@ -13,6 +13,10 @@
     HTML5, CSS3
     jQuery, Modernizr
     
-    font: Bookman Old Style, embedded with webtype.com
+    typography: 
+        - Duplicate Slab (Commercial Type)
+        - Austin Text (Commercial Type)
+        - Source Code (Adobe)
+
     hosted on github pages
     
