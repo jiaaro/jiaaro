@@ -4,5 +4,7 @@ layout: none
 # robotstxt.org/
 
 User-agent: *
+Disallow: /js/
+Disallow: /css/
 
 sitemap: {{ site.url }}/sitemap.xml
