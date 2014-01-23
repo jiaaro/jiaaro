@@ -300,6 +300,9 @@ pre, code, .highlight, .code {
 pre {
     font-size: 16px;
     line-height: 20px;
+    white-space: pre;
+    word-wrap: normal;
+    overflow-x: auto;
 }
 .highlight, .code {
   padding-left: 20px;
