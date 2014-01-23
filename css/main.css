@@ -208,7 +208,7 @@ time::after { float: right; }
   font-family: "Austin Text Web", serif;
   font-weight: normal;
   text-align: right;
-
+  white-space: nowrap;
 }
 article {
   padding-bottom: 20px;
