@@ -18,9 +18,9 @@ I have a hard time imagining the founders of twitter thinking to themselves, “
 
 “*Let’s focus on the hard problems*.” Yes, let’s! But let’s also be honest with ourselves: the hard problems we need to solve are in energy, agriculture, and biology. And hey! What do you know‽ We, as a global society, are spending a *lot* of resources in those areas. The problems are just *really* hard.
 
-I don’t mean to say everything is fine and there is nothing we could do better (as a species, I disdain nationalism), but I really do think the problem is overstated. It’s great that [SpaceX is trying to get us on Mars][spacex-mars], but a huge factor in why there isn't much investment in that area is cost. Before any substantial number of people are going to go off and colonize mars, we need to reduce the cost substantially so that it will be economically feasible to do so.
+I don’t mean to say everything is fine and there is nothing we could do better (as a species, I disdain nationalism), but I really do think the problem is overstated. It’s great that [SpaceX is trying to get us on Mars][spacex-mars], but again, a huge factor in why there isn't much investment in that area is cost. Before any substantial number of people are going to go off and colonize mars, we need to reduce the cost substantially so that it will be economically feasible to do so.
 
-Musk understands this well, and his goal *is* to make it affordable.
+Musk understands this well:
 
 > Elon states that he wants to make a trip to the Red Planet affordable for an average American Family. Affordable, he later said,  is “no more than half a million dollars”.  Considering that this would be a trip to another planet, I personally don’t think 500,000 dollars USD is a bad price.
 
