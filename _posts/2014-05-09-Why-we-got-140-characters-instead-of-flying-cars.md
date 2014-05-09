@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why We Got 140 Characters Instead Of Flying Cars"
-published: false
+published: true
 ---
 
 If you’re an entrepreneur hoping to solve the world’s communication problems, I have a bit of advice: give people communication *skills*, not another way to send their half-baked thoughts to each other. We've got plenty of ways to transport text around the internet, but communication skills haven't improved all that much since the internet was created.
