@@ -42,7 +42,7 @@ textarea {
     resize: vertical;
 }
 p {
-   line-height: 30px;
+   line-height: 1.4em;
    margin: 30px 0;
 }
 
