@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why we got 140 Characters instead of Flying Cars"
+title: "Why We Got 140 Characters Instead Of Flying Cars"
 published: false
 ---
 
