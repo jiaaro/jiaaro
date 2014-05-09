@@ -8,9 +8,9 @@ If you’re an entrepreneur hoping to solve the world’s communication problems
 
 The problem, of course, is that it’s not particularly easy to monetize other people’s communication skills (who will fund you?), aside from hiring them to solve some pressing communication problem for you. But we can’t *all* work in PR.
 
-> We wanted flying cars, instead we got 140 characters
-
 It's easy to see how we got 140 characters. Advertising. But where are our flying cars? You can scarely spend 10 minutes reading or talking about startups and technology without a reference to the quip about [how we *still* don't have flying cars][thiel].
+
+> We wanted flying cars, instead we got 140 characters
 
 I appreciate the sentiment, but the problems we really need to solve in order to get flying cars are economic ones. Flight uses a lot of energy. Energy is expensive. The real obstacle is the cost of flying cars; clearly we've figured out travel by air, it just costs too much to be practical for day-to-day use.
 
