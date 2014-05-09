@@ -24,7 +24,7 @@ It’s great that [SpaceX is trying to get us on Mars][spacex-mars], but again, 
 
 Musk understands this well:
 
-> Elon states that he wants to make a trip to the Red Planet affordable for an average American Family. Affordable, he later said,  is “no more than half a million dollars”.  Considering that this would be a trip to another planet, I personally don’t think 500,000 dollars USD is a bad price.
+> Elon states that he wants to make a trip to the Red Planet affordable for an average American Family. Affordable, he later said,  is “no more than half a million dollars”.
 
 Because as long as it costs millions (billions?) of dollars, which could alternatively be spent **saving lives here on earth**, a mission to colonize Mars is going to be unpalatable. Same for those fancy flying machines you’re yearning for.
 
