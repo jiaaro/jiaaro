@@ -20,7 +20,7 @@ I have a hard time imagining the founders of twitter thinking to themselves, “
 
 I don’t mean to say everything is fine or that there aren’t other things to improve  (as a species, I disdain nationalism), but I think the problem is overstated. 
 
-It’s great that [SpaceX is trying to get us on Mars][spacex-mars], but again, a huge factor in why there isn't much investment in that area is cost. Before any substantial number of people are going to go off and colonize mars, we need to reduce the cost to an level that is affordable at scale.
+It’s great that [SpaceX is trying to get us on Mars][spacex-mars], but again, a huge factor in why there isn't much investment in that area is cost. Before any number of people are going to go off and colonize mars, we need to reduce the cost to a level that is affordable at scale.
 
 Musk understands this well:
 
