@@ -20,7 +20,7 @@ Don’t get me started about filters and rules - that all has to live on the gma
 
 Enter Mailbox…
 
-<img src="/img/mailbox-for-mac.png" alt="Mailbox for Mac" class=“screenshot”>
+<img src="/img/mailbox-for-mac.png" alt="Mailbox for Mac" class="screenshot">
 
 - Hooks into all three email accounts
 - Clear, understandable interface (and bonus: beautiful)
