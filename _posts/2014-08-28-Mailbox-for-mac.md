@@ -8,7 +8,7 @@ I tried Mailbox for mac recently.
 
 It’s nice. Excellent design.
 
-I was surprised to find that I had a slight, subconscious distrust of dropbox. When I found out the app was made by dropbox I briefly reconsidered whether to even try it. I’m glad I did. I owe Peter Chrysdale for the beta invite (and for coming on my podcast!)
+I was surprised to find that I had a slight, subconscious distrust of dropbox. When I found out the app was made by dropbox I briefly reconsidered whether to even try it. I’m glad I did. I owe [Peter Crysdale](https://twitter.com/PCrysdale) for the beta invite (and for [coming on my podcast](http://www.bizvsdev.com/Ep24/)!)
 
 I’ve been a long-time user of Gmail + Mail.app, which… aren’t the best integrated pair of apps. In fact, I’ve tried a *lot* of different email setups. Juno, AOL, vanilla POP3 and IMAP with Outlook, Thunderbird, then back to outlook, then terrible web-based email (squirrel I think) provided with web hosting. Finally ending up with 2 gmail accounts and iCloud account.
 
