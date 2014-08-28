@@ -10,19 +10,21 @@ It’s nice. Excellent design.
 
 I was surprised to find that I had a slight, subconscious distrust of dropbox. When I found out the app was made by dropbox I briefly reconsidered whether to even try it. I’m glad I did. I owe [Peter Crysdale](https://twitter.com/PCrysdale) for the beta invite (and for [coming on my podcast](http://www.bizvsdev.com/Ep24/)!)
 
-I’ve been a long-time user of Gmail + Mail.app, which… aren’t the best integrated pair of apps. In fact, I’ve tried a *lot* of different email setups. Juno, AOL, vanilla POP3 and IMAP with Outlook, Thunderbird, then back to outlook, then terrible web-based email (squirrel I think) provided with web hosting. Finally ending up with 2 gmail accounts and iCloud account.
+I’ve been a long-time user of Gmail + Mail.app, which… aren’t the best integrated pair of apps. In fact, I’ve tried a *lot* of different email setups. Juno, AOL, vanilla POP3 and IMAP with Outlook, Thunderbird, then back to Outlook, then terrible web-based email (squirrel I think) provided with web hosting. Finally ending up with 2 Gmail accounts and iCloud account.
 
-Being able to send email using the appropriate address is important, it’s not super professional to have people email me at my business address and receive a reply from an @gmail.com account. Which means doing everything through the gmail web interface is a bit of a non-starter. I’m not going to switch between 2 gmail accounts all day. It’s a pain, and it means I don’t see new stuff for a lot longer if I forget to check each one. I also just don’t like the new gmail interface. Leaving me with one option: a third-party mail client.
+Being able to send email using the appropriate address is important, it’s not super professional to have people emailing my business address and getting a reply from my personal Gmail account. Doing everything through the Gmail web interface is a bit of a non-starter. I’m not going to switch between 2 Gmail accounts all day. It’s a pain, and it means I don’t see new stuff for a lot longer if I forget to check each one. Every time.
 
-Mail.app served me well for a long time, but it’s never been a great companion to gmail. The way gmail does email simply doesn’t fit the IMAP mold very well. That impedance mismatch has been the cause of much unpleasantness. Mail I meant to archive ended up in the trash (and was deleted). Searching my archive has really only ever worked from the gmail web interface. I’m still not sure what happens when I flag something as spam in Mail.app – does gmail get the memo, or not?
+I also just don’t like the new Gmail interface. Leaving me with one option: a third-party mail client.
 
-Don’t get me started about filters and rules - that all has to live on the gmail server, and I have a set of rules for each gmail account. And the iCloud account? Well I’ve just stopped giving out that address due to useless search, lack of filters, and having to use an “@icloud.com” address. Luckily I don’t get much email that way.
+Mail.app served me well for a long time, but it’s never been a great companion to Gmail. The way Gmail does email simply doesn’t fit the IMAP mold very well. That impedance mismatch has been the cause of much unpleasantness. Mail I meant to archive ended up in the trash (and was deleted). Searching my archive has really only ever worked from the Gmail web interface. I’m still not sure what happens when I flag something as spam in Mail.app – does Gmail get the memo, or not?
 
-Enter Mailbox…
+Don’t get me started about filters and rules - that all has to live on the Gmail server, and I have a set of rules for each Gmail account. And the iCloud account? Well I’ve just stopped giving out that address due to useless search, lack of filters, and having to use an “@icloud.com” address. Luckily I don’t get much email that way.
+
+Enter [Mailbox](http://www.mailboxapp.com)…
 
 <img src="/img/mailbox-for-mac.png" alt="Mailbox for Mac" class="screenshot">
 
-- Hooks into all three email accounts
+- Hooks into all three email accounts (supports Gmail and iCloud)
 - Clear, understandable interface (and bonus: beautiful)
 - Supports keyboard-only workflows
 - First-class support for archive/delete/mark-as-spam
@@ -46,6 +48,6 @@ Now I keep my inbox nearly empty. The [Work] lists are my todo list. Anything I 
 
 Snooze works just like your alarm clock. Makes the message go away for a little while, then return to the top of your inbox. How long can be “later” (3 hours), “tonight” (6 pm), tomorrow, this weekend, next week, among other options. Almost all of them are configurable. Snooze is simple. Snooze is great. Snooze is why my inbox is now empty.
 
-I’m a bit surprised that Mailbox is a Dropbox product. I’m concerned about their motivation; how do they make money on this? They’ve made versions for iPhone, iPad, Mac, and Android, which is an impressive level of dedication. Is automatic dropbox integration for attachments enough to keep this going?
+I’m was surprised that Mailbox is a Dropbox product. I’m concerned about their motivation; how do they make money on this? They’ve made versions for iPhone, iPad, Mac, and Android, which is an impressive level of dedication. But is automatic dropbox integration for attachments enough to keep this going?
 
 Still, I think I’ll keep it. For now.
