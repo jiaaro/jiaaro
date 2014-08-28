@@ -149,6 +149,14 @@ img.full {
   float: none;
   margin: 10px 0;
 }
+img.screenshot {
+	box-shadow: none;
+	background: transparent;
+	border: none;
+	float: none;
+	margin: 0; padding: 0;
+	width: 100%;
+}
 hr {
   margin: 20px 200px;
   border-width: 0px;
