@@ -5,3 +5,5 @@ url: http://www.jiaaro.com
 permalink: /:title
 pygments: true
 markdown: kramdown
+kramdown:
+  input: GFM
