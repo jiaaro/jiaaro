@@ -42,7 +42,7 @@ Now add the fact that people generally don't think of themselves as poor communi
 
 Back to the drawing board. Each education startup will have to find a purpose made way to capture value (a la duolingo).
 
-And if they can't? Screw it. Throw an ad on that shit so we can move on.
+And if they can't? Screw it. Throw an ad on top so we can move on.
 
  [duolingo]: https://www.duolingo.com
  [bizvsdev]: http://www.bizvsdev.com
