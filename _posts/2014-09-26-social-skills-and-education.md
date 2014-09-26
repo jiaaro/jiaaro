@@ -4,7 +4,7 @@ title: "Social Skills and Education"
 published: false
 ---
 
-In my post, "Why we got 140 characters instead of flying cars," I made a throwaway comment about how enterprising individuals should focus on communication *skills* instead of *delivery*. My [podcast][bizvsdev] cohost [Mik][mik], was [disappointed][miks post] that I was writing about economics and not communication. So today I'll talk about the economics of education instead =P
+In my post, "[Why we got 140 characters instead of flying cars][flying cars]," I made a throwaway comment about how enterprising individuals should focus on communication *skills* instead of *delivery*. My [podcast][bizvsdev] cohost [Mik][mik], was [disappointed][miks post] that I was writing about economics and not communication. So today I'll talk about the economics of education instead =P
 
 I'll cut to the chase. Teaching communication skills is not a very good idea for a startup. 
 
@@ -49,3 +49,4 @@ And if they can't? Screw it. Throw an ad on that shit so we can move on.
  [melting asphalt]: http://www.meltingasphalt.com/personhood-a-game-for-two-or-more-players/
  [mik]: https://twitter.com/MikPozin
  [kahn academy]: http://www.forbes.com/sites/michaelnoer/2012/11/02/one-man-one-computer-10-million-students-how-khan-academy-is-reinventing-education/
+ [flying cars]: http://www.jiaaro.com/Why-we-got-140-characters-instead-of-flying-cars/
