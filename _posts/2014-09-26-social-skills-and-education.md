@@ -8,7 +8,7 @@ In my post, "Why we got 140 characters instead of flying cars," I made a throwaw
 
 I'll cut to the chase. Teaching communication skills is not a very good idea for a startup. 
 
-This isn't news. I said it in the last post too. Communication skills are valuable, but capturing that value is difficult. Education startups aren't debuting to multi-billion dollar IPOs. Not Learn-to-code startups. Not Learn-to-write startups. Not learn-a-new-language startups. Not even learn-to-make-friends or learn-to-influence-people startups.
+This isn't news. I said it in the last post too. Communication skills are valuable, but capturing that value is difficult. Education startups aren't debuting to multi-billion dollar IPOs. Not [Learn-to-code startups][kahn academy]. Not Learn-to-write startups. Not learn-a-new-language startups. Not even learn-to-make-friends or learn-to-influence-people startups.
 
 People just don't value education in that way. Universities have managed to jack up the price, but even *they* focus on prestige, job prospects, facilities, and connections.
 
@@ -48,3 +48,4 @@ And if they can't? Screw it. Throw an ad on that shit so we can move on.
  [bizvsdev]: http://www.bizvsdev.com
  [melting asphalt]: http://www.meltingasphalt.com/personhood-a-game-for-two-or-more-players/
  [mik]: https://twitter.com/MikPozin
+ [kahn academy]: http://www.forbes.com/sites/michaelnoer/2012/11/02/one-man-one-computer-10-million-students-how-khan-academy-is-reinventing-education/
