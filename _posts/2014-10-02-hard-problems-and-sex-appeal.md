@@ -8,7 +8,9 @@ My Biz vs Dev cohost, [Mik Pozin](http://mikhail.svbtle.com/140-character-vs-red
 
 > Yes, the problems that aren’t 140 characters are the really hard ones. But we now have to make *that* be the sexy thing. We have to make solving hard problems sexy.
 
-Hard problems *are* sexy. Solving hard problems makes you a god damn super hero. My nascent interest in writing software was kickstarted by an intense curiosity to understand, “What is this sorcery and how does it work?” Google Search is sexy. The iPhone is Sexy. SpaceX Rockets are sexy.
+Hard problems *are* sexy. Solving hard problems makes you a god damn super hero. My nascent interest in writing software was kickstarted by an intense curiosity to understand, “What is this sorcery and how does it work?” 
+
+Google Search is sexy. The iPhone is Sexy. SpaceX Rockets are sexy.
 
 I want us to get there too, I think we’re in complete agreement on that. But saying that everyone is working on meaningless crap instead of solving real problems just isn’t true. There are a few people working on things like twitter, and a small cult of wannabe entrepreneurs following what *looks* like easy money.
 
