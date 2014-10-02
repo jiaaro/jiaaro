@@ -16,4 +16,4 @@ But it’s not easy money. You can count the number of truely successful social 
 
 Innovating on business models is an underappreciated art. Business models are the difference between Android and iOS. Farmville and Minecraft. Gillette and Harrys.
 
-Nobody is going to Mars until there’s a business model. And it’ll need to be a new one; I don’t think Indentured servitude is going to cut it this time.
+Nobody is going to Mars until there’s a business model. And it’ll need to be a new one; I don’t think [indentured servitude](http://en.wikipedia.org/wiki/Indentured_servant) is going to cut it this time.
