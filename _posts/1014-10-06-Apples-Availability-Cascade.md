@@ -4,7 +4,7 @@ layout: post
 title: Apple’s Availability Cascade
 ---
 
-That thing the keeps happening to Apple, it has a name: "Availability Cascade". Seemingly [every][3gsbattery]. [single][antennagate]. [iPhone][bendgate]. has a giant media storm about some non-issue making everyone wonder if the latest iPhone is severely flawed.
+That thing that keeps happening to Apple, it has a name: "availability cascade". Seemingly [every][3gsbattery]. [single][antennagate]. [iPhone][bendgate]. has a giant media storm about some non-issue making everyone wonder if the latest iPhone is severely flawed.
 
 From “[Thinking, Fast and Slow][kahneman],” emphasis mine:
 
