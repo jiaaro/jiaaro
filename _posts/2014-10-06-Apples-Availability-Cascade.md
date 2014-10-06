@@ -4,7 +4,7 @@ layout: post
 title: Apple’s Availability Cascade
 ---
 
-That thing the keeps happening to Apple, it has a name: "Availability Cascade". Seemingly every. single. iPhone. has a giant media storm about some non-issue making everyone wonder if the latest iPhone is severely flawed.
+That thing the keeps happening to Apple, it has a name: "Availability Cascade". Seemingly [every][3gsbattery]. [single][antennagate]. [iPhone][bendgate]. has a giant media storm about some non-issue making everyone wonder if the latest iPhone is severely flawed.
 
 From “[Thinking, Fast and Slow][kahneman],” emphasis mine:
 
@@ -21,3 +21,6 @@ I'm not the first to point it out, but all that attention translates into rating
 The same enthusiasm that gets millions tuning in to WWDC and Product announcements means that a media shitstorm over nothing can turn into a lot of ad revenue. But the initial caring and consequent worry is a prerequisite for all this. That's why there's no coverage of Samsung's flops.
 
  [kahneman]: http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
+ [3gsbattery]: http://en.wikipedia.org/wiki/IPhone_3GS#Overheating
+ [antennagate]: http://en.wikipedia.org/wiki/IPhone_4#Antenna
+ [bendgate]: http://en.wikipedia.org/wiki/IPhone_6#Issues
