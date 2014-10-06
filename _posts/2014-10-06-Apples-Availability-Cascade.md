@@ -1,5 +1,7 @@
 ---
 published: false
+layout: post
+title: Apple’s Availability Cascade
 ---
 
 That thing the keeps happening to Apple, it has a name: "Availability Cascade". Seemingly every. single. iPhone. has a giant media storm about some non-issue making everyone wonder if the latest iPhone is severely flawed. 
