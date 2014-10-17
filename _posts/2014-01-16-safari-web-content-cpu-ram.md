@@ -46,3 +46,4 @@ Anyway hope this helps some poor person with this problem :)
 
 **edit 2**: The trick mentioned in the previous edit is nice, but doesn't work on the Safari Web Content process that hangs, only the ones spawned for browser tabs. Doh!
     
+**edit 3**: OSX 10.10 Yosemite has [greatly improved Activity Monitor's reporting](http://arstechnica.com/apple/2014/10/os-x-10-10/24/) of Safari processes
