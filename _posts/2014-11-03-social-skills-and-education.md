@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Social Skills and Education"
-published: false
+published: true
 ---
 
 In my post, "[Why we got 140 characters instead of flying cars][flying cars]," I made a throwaway comment about how enterprising individuals should focus on communication *skills* instead of *delivery*. My [podcast][bizvsdev] cohost [Mik][mik], was [disappointed][miks post] that I was writing about economics and not communication. So today I'll talk about the economics of education instead =P
