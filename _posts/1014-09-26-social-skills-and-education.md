@@ -16,7 +16,7 @@ Conspicuously absent: the stuff you will know when you graduate.
 
 In fact, those parts seem to be losing prominence as a larger trend in education. The focus is on opportunity, not knowledge.
 
-And selling knowledge is getting harder. The Internet is [socializing us][melting asphalt] to believe information should be free.
+And selling knowledge is getting harder. The Internet is [socializing us][melting asphalt] to believe [information should be free][information wants to be free].
 
 So… where does that leave you, the social entrepreneur?
 
@@ -51,3 +51,4 @@ And if they can't? Screw it. Throw an ad on top so we can move on.
  [mik]: https://twitter.com/MikPozin
  [kahn academy]: http://www.forbes.com/sites/michaelnoer/2012/11/02/one-man-one-computer-10-million-students-how-khan-academy-is-reinventing-education/
  [flying cars]: http://www.jiaaro.com/Why-we-got-140-characters-instead-of-flying-cars/
+ [information wants to be free]: http://en.wikipedia.org/wiki/Information_wants_to_be_free
