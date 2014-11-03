@@ -20,7 +20,7 @@ And selling knowledge is getting harder. The Internet is [socializing us][meltin
 
 So… where does that leave you, the social entrepreneur?
 
-*Delivering* communications – no matter how inane the content – at least has a business model: Insert extra communications (ads) into your pipe in exchange for cash.
+*Delivering* communications – no matter how inane the content – at least has a business model: insert extra communications (ads) into your pipe in exchange for cash.
 
 I hate that business model, but c'est la vie.
 
