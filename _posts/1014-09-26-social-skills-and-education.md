@@ -24,7 +24,7 @@ So… where does that leave you, the social entrepreneur?
 
 I hate that business model, but c'est la vie.
 
-Some education startups have innovated in the business model department. [Duolingo][duolingo] teaches you a language, and then their most advanced users translate documents for practice. They sell translation services.
+Some education startups have innovated in the business model department. [Duolingo][duolingo] teaches you a language, and when their students become advanced they translate documents for practice. They sell translation services.
 
 At first blush, you'd expect a high-value skill like computer programming to be something where you can sell education for a high price. If a professional programmer can earn $100k/year for the next 10 years – that's a *million* bucks! – surely you can charge $5k to teach someone that skill. After all, that's only half a percent of the earnings.
 
