@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Social Skills and Education"
+title: "Social Skills Education"
 published: true
 ---
 
