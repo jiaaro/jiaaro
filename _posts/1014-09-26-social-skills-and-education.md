@@ -36,7 +36,7 @@ Could a learn-to-communicate startup work (be profitable)? Maybe. First they'd h
 
 So far these sound like classical academic topics – literature, theater, psychology – and not exactly a bunch that are [associated with high-paying careers][538 college majors] either.
 
-Much like technology, these things *can* be tremendously valuable, but only when used in conjunction with another skill. It almost doesn't matter what that other skill is. But that makes the value proposition even *harder* than the computer programmer one. "Want to learn a skill which will make you marginally more successful in whatever *other* career path you choose?" I'll teach you, that'll be five grand.
+Much like technology, these things *can* be tremendously valuable when used in conjunction with another skill. It almost doesn't matter what that other skill is. But that makes the value proposition even *harder* than the computer programmer one. "Want to learn a skill which will make you marginally more successful in whatever *other* career path you choose?" I'll teach you, that'll be five grand.
 
 Now add the fact that people generally don't think of themselves as poor communicators, and generally underestimate the benefits of good communication skills. How are you going to sell that?
 
