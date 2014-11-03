@@ -22,7 +22,7 @@ So… where does that leave you, the social entrepreneur?
 
 *Delivering* communications – no matter how inane the content – at least has a business model: Insert extra communications (ads) into your pipe in exchange for cash.
 
-Personally I hate that business model, but c'est la vie.
+I hate that business model, but c'est la vie.
 
 Some education startups have innovated in the business model department. [Duolingo][duolingo] teaches you a language, and then their most advanced users translate documents for practice. They sell translation services.
 
