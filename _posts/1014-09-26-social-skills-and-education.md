@@ -34,7 +34,7 @@ If you’ve never tried computer programming, you really have no idea what it's 
 
 Could a learn-to-communicate startup work (be profitable)? Maybe. First they'd have to settle on an approach. Will they teach people to write? to speak? to unravel the mind of their audience?
 
-So far these sound like classical academic topics – literature, theater, psychology – and not exactly a bunch that are associated with high-paying careers either.
+So far these sound like classical academic topics – literature, theater, psychology – and not exactly a bunch that are [associated with high-paying careers][538 college majors] either.
 
 Much like technology, these things *can* be tremendously valuable, but only when used in conjunction with another skill. It almost doesn't matter what that other skill is. But that makes the value proposition even *harder* than the computer programmer one. "Want to learn a skill which will make you marginally more successful in whatever *other* career path you choose?" I'll teach you, that'll be five grand.
 
@@ -52,3 +52,4 @@ And if they can't? Screw it. Slap an ad on top and IPO.
  [kahn academy]: http://www.forbes.com/sites/michaelnoer/2012/11/02/one-man-one-computer-10-million-students-how-khan-academy-is-reinventing-education/
  [flying cars]: http://www.jiaaro.com/Why-we-got-140-characters-instead-of-flying-cars/
  [information wants to be free]: http://en.wikipedia.org/wiki/Information_wants_to_be_free
+ [538 college majors]: http://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/
