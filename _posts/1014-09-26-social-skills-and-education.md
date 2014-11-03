@@ -28,9 +28,9 @@ Some education startups have innovated in the business model department. [Duolin
 
 At first blush, you'd expect a high-value skill like computer programming to be something where you can sell education for a high price. If a professional programmer can earn $100k/year for the next 10 years – that's a *million* bucks! – surely you can charge $5k to teach someone that skill. After all, that's only half a percent of the earnings.
 
-But that assumes that you'll only want to learn one career skill - that you'll like the first one you learn and that the skills will remain valuable for a long time. That's not how people work.
+But that math only works if you assume that you'll only want/need to learn one career skill. That you'll like the first one you learn. That the skills will remain valuable for a long time. That's not how people work.
 
-If you have never tried computer programming, you really have no idea what it's like to be a programmer (take it from me). Would *you* simultaneously choose a career you know nothing about *AND* hand over $5k to someone whose expertise you are completely unable to evaluate? I wouldn't. Even *without* the risk of some asshole running off with my five grand.
+If you’ve never tried computer programming, you really have no idea what it's like to be a programmer (take it from me). Would *you* simultaneously choose a career you know nothing about *AND* hand over $5k to someone whose expertise you are completely unable to evaluate? I wouldn't. Even *without* the risk of some asshole running off with my five grand.
 
 Could a learn-to-communicate startup work (be profitable)? Maybe. First they'd have to settle on an approach. Will they teach people to write? to speak? to unravel the mind of their audience?
 
