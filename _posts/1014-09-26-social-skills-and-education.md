@@ -46,6 +46,7 @@ And if they can't? Screw it. Throw an ad on top so we can move on.
 
  [duolingo]: https://www.duolingo.com
  [bizvsdev]: http://www.bizvsdev.com
+ [miks post]: http://mikhail.svbtle.com/140-character-vs-red-white-and-blue-space-jockeys
  [melting asphalt]: http://www.meltingasphalt.com/personhood-a-game-for-two-or-more-players/
  [mik]: https://twitter.com/MikPozin
  [kahn academy]: http://www.forbes.com/sites/michaelnoer/2012/11/02/one-man-one-computer-10-million-students-how-khan-academy-is-reinventing-education/
