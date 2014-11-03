@@ -40,7 +40,7 @@ Much like technology, these things *can* be tremendously valuable when used in c
 
 Now add the fact that people generally don't think of themselves as poor communicators, and generally underestimate the benefits of good communication skills. How are you going to sell that?
 
-Back to the drawing board. Each education startup will have to find a purpose made way to capture value (a la duolingo).
+Back to the drawing board. Each education startup will have to find a purpose-made way to capture value (a la duolingo).
 
 And if they can't? Screw it. Slap an ad on top and IPO.
 
