@@ -4,3 +4,6 @@ description: Jiaaro (on life, the universe, and everything)
 url: http://www.jiaaro.com
 permalink: /:title
 pygments: true
+markdown: kramdown
+kramdown:
+  input: GFM
