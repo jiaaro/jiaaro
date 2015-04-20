@@ -67,7 +67,7 @@ body {
     color: #300;
     background: transparent;
     min-width: 440px;
-    max-width: 760px;
+    max-width: 700px;
     margin: 0 auto;
     text-rendering: optimizelegibility;
 }
@@ -340,15 +340,6 @@ code {
 pre code {
   background: none;
   border: none;
-}
-
-
-/* ==========================================================================
-   Mobile Version
-   ========================================================================== */
-
-@media only screen and (max-width: 768px) {
-  
 }
 
 
