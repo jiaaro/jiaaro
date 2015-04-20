@@ -42,13 +42,8 @@ textarea {
     resize: vertical;
 }
 p {
-   line-height: 1.5em;
+   line-height: 1.45em;
    margin: 30px 0;
-   word-spacing: 0.15em;
-}
-p a {
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 .chromeframe {
@@ -64,11 +59,10 @@ p a {
    ========================================================================== */
 
 html {
-  background: rgb(243, 243, 238) url('background.jpg');
+  background: rgb(248, 248, 243) url('background.jpg');
   height: 100%;
 }
 body {
-    font-family: "Austin Text Web", serif;
     line-height: 1.5em;
     color: #300;
     background: transparent;
@@ -78,15 +72,15 @@ body {
     text-rendering: optimizelegibility;
 }
 
-@media (max-width: 639px) {
+@media (max-width: 599px) {
   h1 { font-size: 2.0em; }
-  body { font-size: 26px; padding: 0 20px; }
+  body { font-size: 24px; padding: 0 20px; }
 }
-@media (min-width: 640px) and (max-width: 739px) {
-  body { font-size: 26px; padding: 0 40px; }
+@media (min-width: 600px) and (max-width: 699px) {
+  body { font-size: 24px; padding: 0 40px; }
 }
-@media (min-width: 740px) {
-  body { font-size: 26px; padding: 0 80px; }
+@media (min-width: 700px) {
+  body { font-size: 24px; padding: 0 80px; }
 }
 
 .wrapper {
@@ -99,19 +93,26 @@ body {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body,
+.header-container h2 {
+    font-family: "minion-pro", serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "adelle", sans-serif;
+}
+pre, code, .highlight, .code {
+    font-family: "Source Code Pro", monospace;
+}
+   
 h1, h2, h3, h4, h5, h6 {
   margin: 60px 0 20px;
   line-height: 0.9em;
   color: #433;
   clear: both;
-  font-family: "Duplicate Slab Web", serif;
 }
 h1 {
-  font-size: 2.5em;
-  margin: 30px 0;
-}
-@media (max-width: 639px) {
-  h1 { font-size: 2.0em; }
+  font-size: 50px;
+  margin: 45px 0 30px;
 }
 h2 {
   font-size: 1.75em;
@@ -177,7 +178,7 @@ time {
 time::before, time::after {
   content: '';
   display: block;
-  height: 0; width: 33%;
+  height: 0; width: 30%;
   border-top: 1px solid #766;
   border-bottom: 1px solid #fff;
   margin-top: 0.5em;
@@ -208,7 +209,7 @@ time::after { float: right; }
 .header-nav {
   position: absolute;
   right: 0;
-  top: 20px;
+  top: 12px;
 }
 .header-container {
   position: relative;
@@ -216,8 +217,8 @@ time::after { float: right; }
   border-bottom: 4px solid #433;
 }
 .header-container h1 {
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 50px;
+  line-height: 50px;
   margin: 0;
   font-weight: normal;
   float: left;
@@ -227,7 +228,6 @@ time::after { float: right; }
   bottom: 20px; right: 0;
   font-size: 18px;
   margin: 0;
-  font-family: "Austin Text Web", serif;
   font-weight: normal;
   text-align: right;
   white-space: nowrap;
@@ -251,6 +251,8 @@ article::after {
 }
 .archive-article-list h1 {
   font-size: 32px;
+  line-height: 1.1em;
+  margin-top: 32px;
 }
 .archive-article-list li {
   padding: 45px 0 15px;
@@ -316,12 +318,9 @@ nav a {
 /* ==========================================================================
    Cruft
    ========================================================================== */
-pre, code, .highlight, .code {
-    font-family: "Source Code Pro", monospace;
-}
 pre {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 22px;
     white-space: pre;
     word-wrap: normal;
     overflow-x: auto;
