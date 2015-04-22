@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 50px;
-  margin: 45px 0 30px;
+  margin: 50px 0 10px;
 }
 h2 {
   font-size: 1.75em;
@@ -169,25 +169,14 @@ hr {
 }
 time {
   display: block;
-  text-align: center;
+  text-align: left;
   height: 1em;
   font-size: 0.85em;
   line-height: 1em;
   font-style: italic;
 }
-time::before, time::after {
-  content: '';
-  display: block;
-  height: 0; width: 30%;
-  border-top: 1px solid #766;
-  border-bottom: 1px solid #fff;
-  margin-top: 0.5em;
-}
-time::before { float: left; }
-time::after { float: right; }
 
 @media (min-width: 1200px) {
-  time:before, time:after { display: none; }
   .main header { position: relative; }
   header time {
     text-align: right;
@@ -266,9 +255,6 @@ article::after {
   text-align: left;
   font-size: 16px;
   margin-bottom: -30px;
-}
-.archive-article-list time::before, .archive-article-list time::after {
-  display: none;
 }
 .pagination {
   text-align: center;
