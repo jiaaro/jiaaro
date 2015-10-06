@@ -4,11 +4,11 @@ title: "Blocking Content Blocking"
 published: true
 ---
 
-I can’t help but chuckle about all the handwringing over iOS 9 content blockers. Ad blockers already existed and not that many people use them (as a percentage of overall web users). AND native advertising is mostly immune to content blocking anyway, and that’s where most of the money was going to end up anyway. 
+I can’t help but chuckle about all the hand-wringing over iOS 9 content blockers. Ad blockers already existed; not that many people use them (as a percentage of overall web users). Plus, native advertising is mostly immune to content blocking anyway, and that’s where a lot (most?) of the money was going to end up anyway. 
 
-That’s all old news though. My favorite part is that it’s really not that hard to make nearly unblockable ads. If the publishers and ad networks worked together they could mostly nullify the effects of ad blockers in several different ways.
+That’s all old news though. My favorite part is that it’s really not that hard to make nearly unblockable ads. If the publishers and ad networks worked together they could mostly nullify the effects of ad blockers in lots of ways.
 
-1. They could insert the ads server-side in a way indistinguishable from content. Then load the ad network’s javascript purely to mark the ads as “sponsored content” and handle tracking. This would make it so that people using ad-blockers would have more trouble telling where the ads are, but everyone would see the ads – essentially a weak punishment for people using content blockers.
+1. They could insert the ads server-side in a way indistinguishable from content. Then load the ad network’s javascript purely to mark the ads as “sponsored content” and handle tracking. This would make it so that people using ad-blockers would have more trouble telling where the ads are, but everyone would see the ads.
 
 2. Ad networks could build CDN-like infrastructure and insert their ads in pre-specified parts of the page (like how Vagrant builds pages). This approach lets everything come down from one domain but takes care of publisher accountability (publishers can’t screw the ad network).
 
