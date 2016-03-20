@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/jiaaro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.jiaaro.com
+  * I am jiaaro (https://keybase.io/jiaaro) on keybase.
+  * I have a public key ASAmjWlR2gGlcJGuKzzPQ4UDqxXW0WeP-NDoJACLKWKo7go
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120268d6951da01a57091ae2b3ccf438503ab15d6d1678ff8d0e824008b2962a8ee0a",
+            "host": "keybase.io",
+            "kid": "0120268d6951da01a57091ae2b3ccf438503ab15d6d1678ff8d0e824008b2962a8ee0a",
+            "uid": "70a070e39a951aad5ce3508378c6d519",
+            "username": "jiaaro"
+        },
+        "service": {
+            "hostname": "www.jiaaro.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.8"
+    },
+    "ctime": 1458512320,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1458512296,
+        "hash": "e4e14442529c1c5d2884b779131046b60938869c299ea15f5bf4e4777b3b54970f1e82b7b75b4188478774aad1eb238cadefff000d610574b031e18cb78aa795",
+        "seqno": 416010
+    },
+    "prev": "f3f7c355bd1b026cd44398e3c28aba610af5b07e6d0a64984a9eaa83ece09cf3",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJo1pUdoBpXCRris8z0OFA6sV1tFnj/jQ6CQAiyliqO4Kp3BheWxvYWTFAvJ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMjY4ZDY5NTFkYTAxYTU3MDkxYWUyYjNjY2Y0Mzg1MDNhYjE1ZDZkMTY3OGZmOGQwZTgyNDAwOGIyOTYyYThlZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjY4ZDY5NTFkYTAxYTU3MDkxYWUyYjNjY2Y0Mzg1MDNhYjE1ZDZkMTY3OGZmOGQwZTgyNDAwOGIyOTYyYThlZTBhIiwidWlkIjoiNzBhMDcwZTM5YTk1MWFhZDVjZTM1MDgzNzhjNmQ1MTkiLCJ1c2VybmFtZSI6ImppYWFybyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3LmppYWFyby5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjgifSwiY3RpbWUiOjE0NTg1MTIzMjAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ1ODUxMjI5NiwiaGFzaCI6ImU0ZTE0NDQyNTI5YzFjNWQyODg0Yjc3OTEzMTA0NmI2MDkzODg2OWMyOTllYTE1ZjViZjRlNDc3N2IzYjU0OTcwZjFlODJiN2I3NWI0MTg4NDc4Nzc0YWFkMWViMjM4Y2FkZWZmZjAwMGQ2MTA1NzRiMDMxZTE4Y2I3OGFhNzk1Iiwic2Vxbm8iOjQxNjAxMH0sInByZXYiOiJmM2Y3YzM1NWJkMWIwMjZjZDQ0Mzk4ZTNjMjhhYmE2MTBhZjViMDdlNmQwYTY0OTg0YTllYWE4M2VjZTA5Y2YzIiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAPXNQSt7Goy5DN2rDluVFFM3AfRTLR2Yo19jQgsp2hjWmVJcFEQDvqn5+Subwfsy1qekkTIMBDsKWFNUtNQPUD6hzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jiaaro
+
+==================================================================
