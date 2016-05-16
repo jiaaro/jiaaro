@@ -25,9 +25,9 @@ Be careful of things that are too difficult for you. Feeling like you’re in ov
 At least early on; I’m still not able to keep up. They seem like a great way to practice, but the pace is too fast and there are a lot of idioms.
 
 **Traditional methods don’t work (for me).**  
-Stuff like Rosetta Stone, “Learn Spanish” books, podcasts, etc bore me to death. Motivation is as, or more, important than the information and exercises. “I’ll know Spanish if I do this hard-ass work,” is not enough on it’s own.
+Stuff like Rosetta Stone, “Learn Spanish” books, podcasts, etc bore me to death. Motivation is as important as the information and exercises. You definitely won't learn the language if you quit. And “I’ll know Spanish if I do this hard-ass work,” is not enough on it’s own.
 
-I don’t know how _anyone_ learns language that way. ¯\_(ツ)_/¯ 
+Honestly, I don’t know how _anyone_ learns language that way. ¯\_(ツ)_/¯ 
 
 **Visiting Mexico was a huge motivator.**  
 Really. Nothing makes me want grind through Spanish lessons like being surrounded by native speakers.
