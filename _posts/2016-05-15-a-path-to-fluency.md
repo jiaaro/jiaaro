@@ -19,15 +19,15 @@ If you’re not using [Duolingo](https://www.duolingo.com), you’re missing out
 **Entertainment: You can trick yourself into learning.**  
 Spanish tech news on twitter and RSS make it easier to practice every day without it feeling like work. I also picked up some [translated graphic novels](http://amzn.to/1XdgCCa). Comics, graphic novels, and manga make it _much_ easier to get the gist of the story without struggling too much. There are also [“side-by-side” readers](http://amzn.to/1TfLbTd) which have the same text in two langauges – English on the left, Spanish on the right.
 
-Be careful of things that are too difficult for you though. Feeling like you’re in over your head makes it hard to stay focused and it's demoralizing. 
+Be careful of things that are too difficult for you. Feeling like you’re in over your head makes it hard to stay focused and it’s demoralizing. 
 
 **TV and Movies are a siren song.**  
-At least early on; I’m still not able to keep up. They seem like a great way to practice, but the pace it too fast and there are a lot of idioms.
+At least early on; I’m still not able to keep up. They seem like a great way to practice, but the pace is too fast and there are a lot of idioms.
 
 **Traditional methods don’t work (for me).**  
-Stuff like rosetta stone, “Learn Spanish” books, podcasts, etc really bore me to death. Motivation is as, or more, important than the information and exercises. “I’ll know Spanish if I do this hard-ass work” is not enough on it’s own.
+Stuff like Rosetta Stone, “Learn Spanish” books, podcasts, etc bore me to death. Motivation is as, or more, important than the information and exercises. “I’ll know Spanish if I do this hard-ass work,” is not enough on it’s own.
 
-I don’t know how anyone learns language that way. ¯\_(ツ)_/¯ 
+I don’t know how _anyone_ learns language that way. ¯\_(ツ)_/¯ 
 
 **Visiting Mexico was a huge motivator.**  
 Really. Nothing makes me want grind through Spanish lessons like being surrounded by native speakers.
