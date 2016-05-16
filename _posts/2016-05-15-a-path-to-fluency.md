@@ -32,7 +32,7 @@ I don’t know how anyone learns language that way. ¯\_(ツ)_/¯
 **Visiting Mexico was a huge motivator.**  
 Really. Nothing makes me want grind through Spanish lessons like being surrounded by native speakers.
 
-You can fly to cancun for just over $150 each way on Jet Blue:
+You can fly to Cancun for just over $150 each way on Jet Blue:
 
 <img src="/img/f7cfab39e36dbbfa6d82678c1ac2f8a8.jpeg" alt="JFK to CUN for $315" class="screenshot">
 
