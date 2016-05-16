@@ -11,7 +11,7 @@ Recently though, I’ve been making some headway after giving up lots of times i
 **Learning a language because it’ll be “useful” probably won’t work out.**  
 If you haven’t encountered any Chinese in the last 20 years, odds are you won’t in the next 20 years either. Any language is worth knowing, but, like exercise, most people run out of motivation before reaching their goals.
 
-My advice? Pick one you have a personal reason for. I have Spanish-speaking family (including my wife), Mexico is right next door, there’s Spanish language TV here in New York.
+My advice? Pick one you have a personal reason for. I have Spanish-speaking family (including my wife), Mexico is right next door, and there’s Spanish language TV here in New York.
 
 **Duolingo is amazing.**  
 If you’re not using [Duolingo](https://www.duolingo.com), you’re missing out. 
