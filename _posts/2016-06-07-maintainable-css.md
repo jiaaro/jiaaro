@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Maintainable CSS (or CSS the good parts)"
-published: false
+published: true
 ---
 
 CSS is kind of terrible. Everything affects everything. It’s impossible to refactor. Code is spaghetti from day one.  And selectors are used to identify elements in scripts as well as applying styles, not to mention the semantic meaning of html tags themselves.
@@ -23,17 +23,29 @@ No nesting. If you need more behaviors on an element, add another class. If you 
 
 Really consider giving the parent class less responsibilities though. If you have to think about the order of the rules in a style block, there are probably too many.
 
-Good:  
-`.my-class { … }`
+Good:
 
-Not great (but sometimes necessary):  
-`.my-container .my-class { … }`
+```css
+.my-class { … }
+```
 
-Bad (just create a third class):  
-`.my-class.other-class { … }`
+Not great (but sometimes necessary):
 
-Very Bad (fully engaged in the precedence war):  
-`.container .sub-element a.special-link.active { … }`
+```css
+.my-container .my-class { … }
+```
+
+Bad (just create a third class):
+
+```css
+.my-class.other-class { … }
+```
+
+Very Bad (fully engaged in the precedence war):
+
+```css
+.container .sub-element a.special-link.active { … }
+```
 
 ### Use Naming conventions
 You should be able to tell roughly what a class is for (and you’re only using classes right?) by the name.  Establish – at a minimum – a convention for classes that control layout, text styles, and javascript hooks.
