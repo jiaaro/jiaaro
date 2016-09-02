@@ -6,7 +6,7 @@ published: true
 	
 Fun is number one. Gaming is entertainment. Not a lifestyle, not a subculture.
 
-Call me a filthy casual if you want. But do it quick, I heard destiny raised their level cap again. Or can you skip the grinding with an in-app purchase now?
+Call me a filthy casual if you want. But do it quick, I heard Destiny raised their level cap again. Or can you skip the grinding with an in-app purchase now?
 
 My other values largely follow from that.
 
