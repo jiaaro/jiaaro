@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Makes a Good Game?"
-published: false
+published: true
 ---
 	
 Fun is number one. Gaming is entertainment. Not a lifestyle, not a subculture.
