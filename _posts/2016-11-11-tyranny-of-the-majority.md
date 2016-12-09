@@ -10,6 +10,6 @@ The problem: If you give minorities – say we aim to help transgender people �
 
 Compared with other minority groups, the millionaires are better organized. They have resources. They’re connected. You’d better believe they will take full advantage of any systems designed to empower the other minority groups, no matter how noble the intent. This isn’t theoretical; look no further than the electoral college and the tax code.
 
-Of course, we can make targeted changes to benefit of a specific minority each time there’s a need. Which _does_ work — if you can make it happen. That plan relies on the majority though, to notice and accept the specific minority actually has a need. Which, historically, hasn't been reliable.
+Of course, we can make targeted changes to benefit a specific minority each time there’s a need. Which _does_ work — if you can make it happen. That plan relies on the majority though, to notice and accept the specific minority actually has a need. Which, historically, hasn't been reliable.
 
 I don’t have solutions, but I find this concerning.
