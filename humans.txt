@@ -18,5 +18,5 @@
         - Austin Text (Commercial Type)
         - Source Code (Adobe)
 
-    hosted on github pages
+    hosted by github pages
     
