@@ -5,6 +5,8 @@ url: http://www.jiaaro.com
 permalink: /:title
 highlighter: pygments
 markdown: kramdown
-gems: [jekyll-paginate]
+gems: 
+  - jekyll-paginate
+  - jekyll-redirect-from
 kramdown:
   input: GFM
