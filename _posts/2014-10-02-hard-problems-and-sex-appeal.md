@@ -2,6 +2,7 @@
 layout: post
 title: "Hard problems and Sex appeal"
 published: true
+redirect_from: "/hard-problems-and-sex-appeal/"
 ---
 
 My Biz vs Dev cohost, [Mik Pozin](http://mikhail.svbtle.com/140-character-vs-red-white-and-blue-space-jockeys), 
