@@ -2,6 +2,7 @@
 layout: post
 title: "Machine Learning for Humans: K Nearest-Neighbor"
 published: true
+redirect_from: "/KNN-for-humans/"
 ---
 
 [![Machine Learning in Action - cover][4]][2]
