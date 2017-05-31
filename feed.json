@@ -9,6 +9,10 @@ layout: null
     "description": {{ site.description | jsonify }},
     "icon": "{{ "/apple-touch-icon.png" | absolute_url }}",
     "favicon": "{{ "/favicon.ico" | absolute_url }}",
+    "author": {
+        "name": "James Robert",
+        "url": "https://twitter.com/jiaaro"
+    },
     "expired": false,
     "items": [
       {% for post in site.posts limit:36 %}
