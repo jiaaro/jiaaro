@@ -18,10 +18,7 @@ layout: null
             "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
             "content_html": {{ post.content | strip_newlines | jsonify }},
             "url": "{{ post.url | absolute_url }}",
-            "date_published": "{{ post.date | date_to_xmlschema }}",
-            "author": {
-                "name": "James Robert"
-            }
+            "date_published": "{{ post.date | date_to_xmlschema }}"
         }{% if forloop.last == false %},{% endif %}
       {% endfor %}
     ]
