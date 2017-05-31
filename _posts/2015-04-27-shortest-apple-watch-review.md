@@ -2,6 +2,7 @@
 layout: post
 title: "The Shortest Apple Watch Review"
 published: true
+redirect_from: "/shortest-apple-watch-review/"
 ---
 
 If you’re into two or more of these (or *really* into one), you should check out the Apple Watch:
