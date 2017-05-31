@@ -2,6 +2,7 @@
 layout: post
 title: "Safari Web Content using all my CPU and RAM"
 published: true
+redirect_from: "/safari-web-content-cpu-ram/"
 ---
 
 This post is a bit of a departure from my normal style, but it took me hours of searching to finally nail this down and resolve the issue.
