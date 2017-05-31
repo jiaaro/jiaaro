@@ -32,7 +32,7 @@ layout: null
             "date_published": "{{ post.date | date_to_xmlschema }}",
             "date_modified": "{{ post.date | date_to_xmlschema }}",
             "author": {
-                "name": "{{ post.author }}"
+                "name": "James Robert"
             }
         }{% if forloop.last == false %},{% endif %}
     {% endfor %}
