@@ -10,6 +10,6 @@ If that’s how it feels to “stay connected”, I’ll pass. Email, text, snap
 
 Also, friends, if you publish anything anywhere (blog, soundcloud, university website, etc.) please — PLEASE — let me know how to subscribe for updates. I am seriously interested in the work you do!
 
-It’s easy. Just write an email to me (you can click the link at the top of the website) and say “Hey your blog post says to tell you that I am publishing my work at …”
+It’s easy. Just [write an email](mailto:me@jiaaro.com) to me and say “Hey your blog post says to tell you that I am publishing my work at …”
 
 Please do it!
