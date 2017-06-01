@@ -3,7 +3,7 @@ name: Jiaaro
 description: Jiaaro (on life, the universe, and everything)
 url: http://www.jiaaro.com
 permalink: /:title
-highlighter: rogue
+highlighter: rouge
 markdown: kramdown
 gems: 
   - jekyll-paginate
