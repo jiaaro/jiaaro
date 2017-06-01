@@ -10,7 +10,7 @@ I’m James Robert (“[jiaaro][googjiaaro]” on the internet). I live in Brook
 Hare are some things I've worked on and places you can find me on the web:
 
  - [Github][github]
- - [Biz vs Dev podcast][bizvsdev].
+ - [Biz vs Dev podcast][bizvsdev]
  - [Daily Bread][dailybread], a machine-learningy grocery list app that predicts what you'll add. It supports Apple Watch. The [source is on github][dailybreadgithub]
  - [Media Predict][mp]: A market research company. I joined pretty early on and I was the CTO for a while.
 
