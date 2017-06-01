@@ -5,11 +5,14 @@ title: About Me, Jiaaro
 
 # About Me
 
-I’m James Robert. [Hacker][github]. [Podcaster][bizvsdev]. Brooklyner. Typophile. Musician. CTO at [Media Predict][mp].
+I’m James Robert (“[jiaaro][googjiaaro]” on the internet). I live in Brooklyn and I care about stuff.
 
-Creator of [Daily Bread][dailybread], a grocery list that saves time and helps you remember the essentials. It supports Apple Watch, and the [source is on github][dailybreadgithub] :)
+Hare are some things I've worked on and places you can find me on the web:
 
-I use the moniker, “[jiaaro][googjiaaro]” on the internet because it’s unique.
+ - [Github][github]
+ - [Biz vs Dev podcast][bizvsdev].
+ - [Daily Bread][dailybread], a machine-learningy grocery list app that predicts what you'll add. It supports Apple Watch. The [source is on github][dailybreadgithub]
+ - [Media Predict][mp]: A market research company. I joined pretty early on and I was the CTO for a while.
 
 The best ways to contact me are [email][email] and [twitter][twitter]. 
 
