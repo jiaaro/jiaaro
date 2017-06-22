@@ -4,11 +4,11 @@ title: "Twitter vs Facebook"
 published: true
 ---
 
-The difference between Twitter and Facebook isn’t that Twitter is a better company, is better product, or that they treat their users better (they aren’t, it’s not, and they don’t). It’s that after reading twitter I feel (you know, ever-so-slightly) happier and more relaxed and after using Facebook I miss old friends, and generally feel anxious and melancholy.
+The difference between Twitter and Facebook isn’t that Twitter is a better company, a better product, or that they treat their users better (they aren’t, it’s not, and they don’t). It’s that after reading twitter I feel (you know, ever-so-slightly) happier and more relaxed. And after using Facebook I miss old friends, and generally feel anxious and melancholy.
 
 If that’s how it feels to “stay connected”, I’ll pass. Email, text, snapchat, and twitter are still good :)
 
-I am not the target of the bizarre pile-on attacks twitter is sometimes associated with. I’m sure that would ruin it for me, but Facebook doesn’t have that problem (as far as I know) and it’s already baseline negative so… ¯\\\_(ツ)_/¯ 
+Twitter requires you to curate who you follow, and that’s real work. I appreciate that. I’m also not the target of the bizarre pile-on attacks twitter is sometimes associated with. I’m sure that would ruin it for me. But, Facebook doesn’t have that problem (as far as I know) and it’s already baseline negative so… ¯\\\_(ツ)_/¯
 
 Also, friends, if you publish anything anywhere (blog, soundcloud, university website, etc.) please — PLEASE — let me know how to subscribe for updates. I am seriously interested in the work you do!
 
