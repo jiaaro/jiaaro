@@ -5,7 +5,7 @@ title: About Me, Jiaaro
 
 # About Me
 
-I’m James Robert (“[jiaaro][googjiaaro]” on the internet). I live in Brooklyn and I care about stuff.
+I’m James Robert (“[jiaaro][googjiaaro]” on the internet). I live in Austin and I care about stuff.
 
 Hare are some things I've worked on and places you can find me on the web:
 
