@@ -4,6 +4,8 @@ title: "Mailbox for Mac"
 published: true
 ---
 
+[*edit, 2019*]: Mailbox was discontinued shortly after dropbox acquired them. I've switched to [AirMail for Mac/iOS](http://airmailapp.com). Links in the following post updated ot point to the [wikipedia page](https://en.wikipedia.org/wiki/Mailbox_(application)) instead of the Mailbox website (which is gone).
+
 I tried Mailbox for mac recently.
 
 It’s nice. Excellent design.
@@ -20,7 +22,7 @@ Mail.app served me well for a long time, but it’s never been a great companion
 
 Don’t get me started about filters and rules - that all has to live on the Gmail server, and I have a set of rules for each Gmail account. And the iCloud account? Well I’ve just stopped giving out that address due to useless search, lack of filters, and having to use an “@icloud.com” address. Luckily I don’t get much email that way.
 
-Enter [Mailbox](http://www.mailboxapp.com)…
+Enter [Mailbox](https://en.wikipedia.org/wiki/Mailbox_(application))…
 
 <img src="/img/mailbox-for-mac.png" alt="Mailbox for Mac" class="screenshot">
 
