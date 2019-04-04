@@ -4,7 +4,9 @@ title: "Mailbox for Mac"
 published: true
 ---
 
-[*edit, 2019*]: Mailbox was discontinued shortly after dropbox acquired them. I've switched to [AirMail for Mac/iOS](http://airmailapp.com). Links in the following post updated ot point to the [wikipedia page](https://en.wikipedia.org/wiki/Mailbox_(application)) instead of the Mailbox website (which is gone).
+[*edit, 2019*]: Mailbox was discontinued shortly after dropbox acquired them. I've switched to [AirMail for Mac/iOS](http://airmailapp.com). Links in the following post updated ot point to the [wikipedia page](https://en.wikipedia.org/wiki/Mailbox_(application)) instead of the Mailbox website (which is gone). Original post starts after this break.
+
+---
 
 I tried Mailbox for mac recently.
 
