@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why not Facebook?"
-published: false
+published: true
 ---
 
 They don’t respect your privacy. They’re irresponsible. And they’re dishonest.
