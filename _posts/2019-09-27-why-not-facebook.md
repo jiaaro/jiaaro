@@ -49,6 +49,6 @@ They don’t respect your privacy. They’re irresponsible. And they’re dishon
 
 ## But Instagram…
 
-These issues are _not_ isolated to the Facebook app. Facebook as an institution uses whatever means available to pursue their goals. Instagram and WhatsApp can snoop through your contacts and photos, or log your location history just as well as any other Facebook property.
+These issues are _not_ isolated to the Facebook app. Facebook, as an institution, uses whatever means available to pursue their goals. Instagram and WhatsApp can snoop through your contacts and photos, or log your location history just as well as any other Facebook property.
 
-Also, Instagram is younger in its product lifecycle. You’ve probably noticed the increasing number of ads. It’s heading the same direction as Facebook proper, just 5 behind. And finally, the money they make on Instagram will fund other projects (like their cryptocurrency) and anticompetitive activity (like lobbying and acquiring competitors, e.g., Instagram and WhatsApp).
+Also, Instagram is younger in its product lifecycle. You’ve probably noticed the increasing number of ads. It’s heading the same direction as Facebook proper, just 5 years behind. And the money they make on Instagram will fund other Facebook projects (like their cryptocurrency) and anticompetitive activity (like lobbying or acquiring competitors, e.g., Instagram and WhatsApp).
