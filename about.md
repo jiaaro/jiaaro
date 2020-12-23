@@ -7,16 +7,16 @@ title: About Me, Jiaaro
 
 I’m James Robert (“[jiaaro][googjiaaro]” on the internet). I live in Austin and I care about stuff.
 
-Hare are some things I've worked on and places you can find me on the web:
+Here are some things I've worked on and places you can find me on the web:
 
  - [Github][github]
  - [Biz vs Dev podcast][bizvsdev]
- - [Daily Bread][dailybread], a machine-learningy grocery list app that predicts what you'll add. It supports Apple Watch. The [source is on github][dailybreadgithub]
+ - [Daily Bread][dailybread], a machine-learningy grocery list app that predicts what you'll add. It supports Apple Watch. The [source is on github][dailybreadgithub].
  - [Media Predict][mp]: A market research company. I joined pretty early on and I was the CTO for a while.
 
 The best ways to contact me are [email][email] and [twitter][twitter]. 
 
-***But*** if you disagree with something I’ve written, you should write a response on *your* blog ☺︎
+***But***, if you disagree with something I’ve written, you should write a response on *your* blog ☺︎
 
 I try to be friendly and helpful:
 
